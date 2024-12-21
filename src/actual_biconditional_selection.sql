@@ -1,0 +1,10 @@
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql
+\i /home/sjq/Documents/Assignment/CS213/ProjectThree/biconditional_selection.sql

@@ -1,0 +1,1203 @@
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359200335616 on node gaussdb waiting for ShareLock on transaction 132568 after 120000.181 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391989307136 on node gaussdb waiting for ShareLock on transaction 132568 after 120000.190 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126396445755136 on node gaussdb waiting for ExclusiveLock on tuple (277,14) of (relation 16857, bucket 0) of database 14712 after 120000.097 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359200335616 on node gaussdb waiting for ShareLock on transaction 132568 after 120000.181 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391989307136 on node gaussdb waiting for ShareLock on transaction 132568 after 120000.190 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126396445755136 on node gaussdb waiting for ExclusiveLock on tuple (277,14) of (relation 16857, bucket 0) of database 14712 after 120000.097 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389577582336 on node gaussdb waiting for ShareLock on transaction 132473 after 120000.186 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389577582336 on node gaussdb waiting for ShareLock on transaction 132473 after 120000.186 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389288175360 on node gaussdb waiting for ExclusiveLock on tuple (278,15) of (relation 16856, bucket 0) of database 14712 after 120000.279 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389288175360 on node gaussdb waiting for ExclusiveLock on tuple (278,15) of (relation 16856, bucket 0) of database 14712 after 120000.279 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126383533590272 on node gaussdb waiting for ShareLock on transaction 132352 after 120000.211 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126383533590272 on node gaussdb waiting for ShareLock on transaction 132352 after 120000.211 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126377307145984 on node gaussdb waiting for ExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.171 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126377307145984 on node gaussdb waiting for ExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.171 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371783247616 on node gaussdb waiting for ExclusiveLock on tuple (271,34) of (relation 16857, bucket 0) of database 14712 after 120000.252 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371783247616 on node gaussdb waiting for ExclusiveLock on tuple (271,34) of (relation 16857, bucket 0) of database 14712 after 120000.252 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357690386176 on node gaussdb waiting for ExclusiveLock on tuple (301,1) of (relation 16853, bucket 0) of database 14712 after 120000.213 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357690386176 on node gaussdb waiting for ExclusiveLock on tuple (301,1) of (relation 16853, bucket 0) of database 14712 after 120000.213 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358860596992 on node gaussdb waiting for ExclusiveLock on tuple (283,20) of (relation 16857, bucket 0) of database 14712 after 120000.165 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358860596992 on node gaussdb waiting for ExclusiveLock on tuple (283,20) of (relation 16857, bucket 0) of database 14712 after 120000.165 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358898345728 on node gaussdb waiting for ShareLock on transaction 132561 after 120000.097 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358898345728 on node gaussdb waiting for ShareLock on transaction 132561 after 120000.097 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358822848256 on node gaussdb waiting for ExclusiveLock on tuple (301,1) of (relation 16853, bucket 0) of database 14712 after 120000.234 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358822848256 on node gaussdb waiting for ExclusiveLock on tuple (301,1) of (relation 16853, bucket 0) of database 14712 after 120000.234 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358369863424 on node gaussdb waiting for ExclusiveLock on tuple (271,34) of (relation 16857, bucket 0) of database 14712 after 120000.087 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358369863424 on node gaussdb waiting for ExclusiveLock on tuple (271,34) of (relation 16857, bucket 0) of database 14712 after 120000.087 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126376044660480 on node gaussdb waiting for ExclusiveLock on tuple (273,5) of (relation 16856, bucket 0) of database 14712 after 120000.083 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392291297024 on node gaussdb waiting for ExclusiveLock on tuple (280,18) of (relation 16857, bucket 0) of database 14712 after 120000.255 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126369235207936 on node gaussdb waiting for ExclusiveLock on tuple (273,5) of (relation 16856, bucket 0) of database 14712 after 120000.157 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360295048960 on node gaussdb waiting for ExclusiveLock on tuple (301,1) of (relation 16853, bucket 0) of database 14712 after 120000.090 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126376044660480 on node gaussdb waiting for ExclusiveLock on tuple (273,5) of (relation 16856, bucket 0) of database 14712 after 120000.083 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392291297024 on node gaussdb waiting for ExclusiveLock on tuple (280,18) of (relation 16857, bucket 0) of database 14712 after 120000.255 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126369235207936 on node gaussdb waiting for ExclusiveLock on tuple (273,5) of (relation 16856, bucket 0) of database 14712 after 120000.157 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359728817920 on node gaussdb waiting for ExclusiveLock on tuple (277,14) of (relation 16857, bucket 0) of database 14712 after 120000.158 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360295048960 on node gaussdb waiting for ExclusiveLock on tuple (301,1) of (relation 16853, bucket 0) of database 14712 after 120000.090 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359728817920 on node gaussdb waiting for ExclusiveLock on tuple (277,14) of (relation 16857, bucket 0) of database 14712 after 120000.158 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126382684243712 on node gaussdb waiting for ExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.080 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126382684243712 on node gaussdb waiting for ExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.080 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387293783808 on node gaussdb waiting for AccessExclusiveLock on tuple (135,24) of (relation 16857, bucket 0) of database 14712 after 120000.125 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387293783808 on node gaussdb waiting for AccessExclusiveLock on tuple (135,24) of (relation 16857, bucket 0) of database 14712 after 120000.125 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357237401344 on node gaussdb waiting for ExclusiveLock on tuple (278,15) of (relation 16856, bucket 0) of database 14712 after 120000.173 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357237401344 on node gaussdb waiting for ExclusiveLock on tuple (278,15) of (relation 16856, bucket 0) of database 14712 after 120000.173 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126377506375424 on node gaussdb waiting for AccessExclusiveLock on tuple (301,1) of (relation 16853, bucket 0) of database 14712 after 120000.287 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126377506375424 on node gaussdb waiting for AccessExclusiveLock on tuple (301,1) of (relation 16853, bucket 0) of database 14712 after 120000.287 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359219209984 on node gaussdb waiting for ExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.306 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359219209984 on node gaussdb waiting for ExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.306 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360125179648 on node gaussdb waiting for ShareLock on transaction 133178 after 120000.214 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360125179648 on node gaussdb waiting for ShareLock on transaction 133178 after 120000.214 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126368639616768 on node gaussdb waiting for ExclusiveLock on tuple (280,18) of (relation 16857, bucket 0) of database 14712 after 120000.261 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126368639616768 on node gaussdb waiting for ExclusiveLock on tuple (280,18) of (relation 16857, bucket 0) of database 14712 after 120000.261 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126377416197888 on node gaussdb waiting for ExclusiveLock on tuple (271,34) of (relation 16857, bucket 0) of database 14712 after 120000.275 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126377416197888 on node gaussdb waiting for ExclusiveLock on tuple (271,34) of (relation 16857, bucket 0) of database 14712 after 120000.275 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371802121984 on node gaussdb waiting for ShareLock on transaction 132976 after 120000.251 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371802121984 on node gaussdb waiting for ShareLock on transaction 132976 after 120000.251 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391819437824 on node gaussdb waiting for ExclusiveLock on tuple (283,20) of (relation 16857, bucket 0) of database 14712 after 120000.242 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391819437824 on node gaussdb waiting for ExclusiveLock on tuple (283,20) of (relation 16857, bucket 0) of database 14712 after 120000.242 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126377487501056 on node gaussdb waiting for ExclusiveLock on tuple (294,1) of (relation 16853, bucket 0) of database 14712 after 120000.370 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126377487501056 on node gaussdb waiting for ExclusiveLock on tuple (294,1) of (relation 16853, bucket 0) of database 14712 after 120000.370 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391725065984 on node gaussdb waiting for AccessExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.336 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391725065984 on node gaussdb waiting for AccessExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.336 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389936195328 on node gaussdb waiting for ShareLock on transaction 133085 after 120000.350 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389936195328 on node gaussdb waiting for ShareLock on transaction 133085 after 120000.350 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360804656896 on node gaussdb waiting for ShareLock on transaction 132845 after 120000.097 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360804656896 on node gaussdb waiting for ShareLock on transaction 132845 after 120000.097 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126381602113280 on node gaussdb waiting for AccessExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.375 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126381602113280 on node gaussdb waiting for AccessExclusiveLock on tuple (280,8) of (relation 16857, bucket 0) of database 14712 after 120000.375 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389804074752 on node gaussdb waiting for ExclusiveLock on tuple (275,34) of (relation 16857, bucket 0) of database 14712 after 120000.248 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389804074752 on node gaussdb waiting for ExclusiveLock on tuple (275,34) of (relation 16857, bucket 0) of database 14712 after 120000.248 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357294024448 on node gaussdb waiting for ExclusiveLock on tuple (294,1) of (relation 16853, bucket 0) of database 14712 after 120000.376 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357294024448 on node gaussdb waiting for ExclusiveLock on tuple (294,1) of (relation 16853, bucket 0) of database 14712 after 120000.376 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360219551488 on node gaussdb waiting for ShareLock on transaction 132309 after 120000.343 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360219551488 on node gaussdb waiting for ShareLock on transaction 132309 after 120000.343 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358671853312 on node gaussdb waiting for ExclusiveLock on tuple (285,8) of (relation 16889, bucket 0) of database 14712 after 120000.213 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358671853312 on node gaussdb waiting for ExclusiveLock on tuple (285,8) of (relation 16889, bucket 0) of database 14712 after 120000.213 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357539391232 on node gaussdb waiting for ShareLock on transaction 134360 after 120000.198 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357539391232 on node gaussdb waiting for ShareLock on transaction 134360 after 120000.198 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357822506752 on node gaussdb waiting for ShareLock on transaction 134648 after 120000.089 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358199994112 on node gaussdb waiting for ShareLock on transaction 134713 after 120000.180 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388308805376 on node gaussdb waiting for AccessExclusiveLock on tuple (134,25) of (relation 16890, bucket 0) of database 14712 after 120000.276 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358124496640 on node gaussdb waiting for ExclusiveLock on tuple (285,8) of (relation 16889, bucket 0) of database 14712 after 120000.138 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357822506752 on node gaussdb waiting for ShareLock on transaction 134648 after 120000.089 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388308805376 on node gaussdb waiting for AccessExclusiveLock on tuple (134,25) of (relation 16890, bucket 0) of database 14712 after 120000.276 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358199994112 on node gaussdb waiting for ShareLock on transaction 134713 after 120000.180 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358124496640 on node gaussdb waiting for ExclusiveLock on tuple (285,8) of (relation 16889, bucket 0) of database 14712 after 120000.138 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385177757440 on node gaussdb waiting for ShareLock on transaction 134621 after 120000.110 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385177757440 on node gaussdb waiting for ShareLock on transaction 134621 after 120000.110 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388931659520 on node gaussdb waiting for ExclusiveLock on tuple (298,14) of (relation 16890, bucket 0) of database 14712 after 120000.238 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388931659520 on node gaussdb waiting for ExclusiveLock on tuple (298,14) of (relation 16890, bucket 0) of database 14712 after 120000.238 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359691069184 on node gaussdb waiting for ExclusiveLock on tuple (134,25) of (relation 16890, bucket 0) of database 14712 after 120000.238 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358218868480 on node gaussdb waiting for ExclusiveLock on tuple (286,15) of (relation 16891, bucket 0) of database 14712 after 120000.115 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359691069184 on node gaussdb waiting for ExclusiveLock on tuple (134,25) of (relation 16890, bucket 0) of database 14712 after 120000.238 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358218868480 on node gaussdb waiting for ExclusiveLock on tuple (286,15) of (relation 16891, bucket 0) of database 14712 after 120000.115 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126373339334400 on node gaussdb waiting for AccessExclusiveLock on tuple (134,25) of (relation 16890, bucket 0) of database 14712 after 120000.118 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126373339334400 on node gaussdb waiting for AccessExclusiveLock on tuple (134,25) of (relation 16890, bucket 0) of database 14712 after 120000.118 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359011591936 on node gaussdb waiting for ShareLock on transaction 133891 after 120000.341 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359011591936 on node gaussdb waiting for ShareLock on transaction 133891 after 120000.341 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358558607104 on node gaussdb waiting for ShareLock on transaction 135329 after 120000.290 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358558607104 on node gaussdb waiting for ShareLock on transaction 135329 after 120000.290 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126355966527232 on node gaussdb waiting for ExclusiveLock on tuple (279,1) of (relation 16931, bucket 0) of database 14712 after 120000.171 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126355966527232 on node gaussdb waiting for ExclusiveLock on tuple (279,1) of (relation 16931, bucket 0) of database 14712 after 120000.171 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389269300992 on node gaussdb waiting for ShareLock on transaction 135706 after 120000.228 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389269300992 on node gaussdb waiting for ShareLock on transaction 135706 after 120000.228 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357048657664 on node gaussdb waiting for ShareLock on transaction 135598 after 120000.187 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357048657664 on node gaussdb waiting for ShareLock on transaction 135598 after 120000.187 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126369495254784 on node gaussdb waiting for ExclusiveLock on tuple (302,1) of (relation 16925, bucket 0) of database 14712 after 120000.226 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126369495254784 on node gaussdb waiting for ExclusiveLock on tuple (302,1) of (relation 16925, bucket 0) of database 14712 after 120000.226 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388422051584 on node gaussdb waiting for ShareLock on transaction 135882 after 120000.118 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388422051584 on node gaussdb waiting for ShareLock on transaction 135882 after 120000.118 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372521445120 on node gaussdb waiting for ShareLock on transaction 135848 after 120000.182 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372521445120 on node gaussdb waiting for ShareLock on transaction 135848 after 120000.182 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126368861914880 on node gaussdb waiting for ShareLock on transaction 135922 after 120000.276 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126368861914880 on node gaussdb waiting for ShareLock on transaction 135922 after 120000.276 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358067873536 on node gaussdb waiting for ExclusiveLock on tuple (134,17) of (relation 16925, bucket 0) of database 14712 after 120000.195 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358067873536 on node gaussdb waiting for ExclusiveLock on tuple (134,17) of (relation 16925, bucket 0) of database 14712 after 120000.195 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358747350784 on node gaussdb waiting for ShareLock on transaction 135924 after 120000.122 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358747350784 on node gaussdb waiting for ShareLock on transaction 135924 after 120000.122 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357633763072 on node gaussdb waiting for ShareLock on transaction 135929 after 120000.192 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389955069696 on node gaussdb waiting for ExclusiveLock on tuple (289,2) of (relation 16928, bucket 0) of database 14712 after 120000.160 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357633763072 on node gaussdb waiting for ShareLock on transaction 135929 after 120000.192 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389955069696 on node gaussdb waiting for ExclusiveLock on tuple (289,2) of (relation 16928, bucket 0) of database 14712 after 120000.160 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387688048384 on node gaussdb waiting for ExclusiveLock on tuple (271,27) of (relation 16931, bucket 0) of database 14712 after 120000.603 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387688048384 on node gaussdb waiting for ExclusiveLock on tuple (271,27) of (relation 16931, bucket 0) of database 14712 after 120000.603 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359049340672 on node gaussdb waiting for ShareLock on transaction 136080 after 120000.065 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359049340672 on node gaussdb waiting for ShareLock on transaction 136080 after 120000.065 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356859913984 on node gaussdb waiting for ExclusiveLock on tuple (279,8) of (relation 16931, bucket 0) of database 14712 after 120000.110 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356859913984 on node gaussdb waiting for ExclusiveLock on tuple (279,8) of (relation 16931, bucket 0) of database 14712 after 120000.110 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359823189760 on node gaussdb waiting for ExclusiveLock on tuple (134,17) of (relation 16925, bucket 0) of database 14712 after 120000.087 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359823189760 on node gaussdb waiting for ExclusiveLock on tuple (134,17) of (relation 16925, bucket 0) of database 14712 after 120000.087 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358785099520 on node gaussdb waiting for ExclusiveLock on tuple (281,23) of (relation 16928, bucket 0) of database 14712 after 120000.076 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358785099520 on node gaussdb waiting for ExclusiveLock on tuple (281,23) of (relation 16928, bucket 0) of database 14712 after 120000.076 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126370233452288 on node gaussdb waiting for ExclusiveLock on tuple (273,6) of (relation 16931, bucket 0) of database 14712 after 120000.094 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126370233452288 on node gaussdb waiting for ExclusiveLock on tuple (273,6) of (relation 16931, bucket 0) of database 14712 after 120000.094 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126364944434944 on node gaussdb waiting for ExclusiveLock on tuple (292,9) of (relation 16928, bucket 0) of database 14712 after 120000.202 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126364944434944 on node gaussdb waiting for ExclusiveLock on tuple (292,9) of (relation 16928, bucket 0) of database 14712 after 120000.202 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126365714089728 on node gaussdb waiting for ShareLock on transaction 136105 after 120000.077 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126365714089728 on node gaussdb waiting for ShareLock on transaction 136105 after 120000.077 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359275833088 on node gaussdb waiting for ExclusiveLock on tuple (279,1) of (relation 16931, bucket 0) of database 14712 after 120000.073 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359275833088 on node gaussdb waiting for ExclusiveLock on tuple (279,1) of (relation 16931, bucket 0) of database 14712 after 120000.073 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357067532032 on node gaussdb waiting for ExclusiveLock on tuple (279,1) of (relation 16931, bucket 0) of database 14712 after 120000.265 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357067532032 on node gaussdb waiting for ExclusiveLock on tuple (279,1) of (relation 16931, bucket 0) of database 14712 after 120000.265 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389288175360 on node gaussdb waiting for ExclusiveLock on tuple (276,25) of (relation 16928, bucket 0) of database 14712 after 120000.079 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389288175360 on node gaussdb waiting for ExclusiveLock on tuple (276,25) of (relation 16928, bucket 0) of database 14712 after 120000.079 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356104939264 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 16931, bucket 0) of database 14712 after 120000.172 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356104939264 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 16931, bucket 0) of database 14712 after 120000.172 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359955310336 on node gaussdb waiting for ExclusiveLock on tuple (276,25) of (relation 16928, bucket 0) of database 14712 after 120000.177 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359955310336 on node gaussdb waiting for ExclusiveLock on tuple (276,25) of (relation 16928, bucket 0) of database 14712 after 120000.177 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391970432768 on node gaussdb waiting for ExclusiveLock on tuple (302,1) of (relation 16925, bucket 0) of database 14712 after 120000.308 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391970432768 on node gaussdb waiting for ExclusiveLock on tuple (302,1) of (relation 16925, bucket 0) of database 14712 after 120000.308 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356142688000 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 16931, bucket 0) of database 14712 after 120000.128 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356142688000 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 16931, bucket 0) of database 14712 after 120000.128 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392045930240 on node gaussdb waiting for ShareLock on transaction 136010 after 120000.583 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392045930240 on node gaussdb waiting for ShareLock on transaction 136010 after 120000.583 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126396030519040 on node gaussdb waiting for ShareLock on transaction 135635 after 120000.490 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126396030519040 on node gaussdb waiting for ShareLock on transaction 135635 after 120000.490 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            18662
+        write:                           4136
+        other:                           3153
+        total:                           25951
+    transactions:                        1045   (12.97 per sec.)
+    queries:                             25951  (322.00 per sec.)
+    ignored errors:                      288    (3.57 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          80.5911s
+    total number of events:              1045
+
+Latency (ms):
+         min:                                    2.83
+         avg:                                38377.17
+         max:                                80585.99
+         95th percentile:                    80567.22
+         sum:                             40104143.03
+
+Threads fairness:
+    events (avg/stddev):           1.7417/0.97
+    execution time (avg/stddev):   66.8402/16.70
+
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            18648
+        write:                           4049
+        other:                           3132
+        total:                           25829
+    transactions:                        1024   (10.79 per sec.)
+    queries:                             25829  (272.12 per sec.)
+    ignored errors:                      308    (3.24 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          94.9140s
+    total number of events:              1024
+
+Latency (ms):
+         min:                                    2.88
+         avg:                                43549.28
+         max:                                94910.18
+         95th percentile:                    94741.35
+         sum:                             44594464.87
+
+Threads fairness:
+    events (avg/stddev):           1.7067/0.88
+    execution time (avg/stddev):   74.3241/21.84
+
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126395965507328 on node gaussdb waiting for ShareLock on transaction 139691 after 120000.182 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126395965507328 on node gaussdb waiting for ShareLock on transaction 139691 after 120000.182 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391441950464 on node gaussdb waiting for ShareLock on transaction 139636 after 120000.183 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126393587336960 on node gaussdb waiting for ShareLock on transaction 139778 after 120000.151 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391441950464 on node gaussdb waiting for ShareLock on transaction 139636 after 120000.183 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126393587336960 on node gaussdb waiting for ShareLock on transaction 139778 after 120000.151 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391234332416 on node gaussdb waiting for ExclusiveLock on tuple (134,17) of (relation 17040, bucket 0) of database 14712 after 120000.157 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126395837581056 on node gaussdb waiting for ShareLock on transaction 139737 after 120000.183 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391234332416 on node gaussdb waiting for ExclusiveLock on tuple (134,17) of (relation 17040, bucket 0) of database 14712 after 120000.157 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126395837581056 on node gaussdb waiting for ShareLock on transaction 139737 after 120000.183 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126393060951808 on node gaussdb waiting for ExclusiveLock on tuple (274,2) of (relation 17040, bucket 0) of database 14712 after 120000.135 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126393060951808 on node gaussdb waiting for ExclusiveLock on tuple (274,2) of (relation 17040, bucket 0) of database 14712 after 120000.135 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389269300992 on node gaussdb waiting for AccessExclusiveLock on tuple (312,9) of (relation 17043, bucket 0) of database 14712 after 120000.179 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389269300992 on node gaussdb waiting for AccessExclusiveLock on tuple (312,9) of (relation 17043, bucket 0) of database 14712 after 120000.179 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359124838144 on node gaussdb waiting for ShareLock on transaction 139910 after 120000.122 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359124838144 on node gaussdb waiting for ShareLock on transaction 139910 after 120000.122 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358426486528 on node gaussdb waiting for ShareLock on transaction 139789 after 120000.246 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358426486528 on node gaussdb waiting for ShareLock on transaction 139789 after 120000.246 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357614888704 on node gaussdb waiting for ShareLock on transaction 139773 after 120000.146 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357614888704 on node gaussdb waiting for ShareLock on transaction 139773 after 120000.146 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126366102062848 on node gaussdb waiting for ExclusiveLock on tuple (312,9) of (relation 17043, bucket 0) of database 14712 after 120000.111 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126366102062848 on node gaussdb waiting for ExclusiveLock on tuple (312,9) of (relation 17043, bucket 0) of database 14712 after 120000.111 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126396445755136 on node gaussdb waiting for ShareLock on transaction 139725 after 120000.063 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126396760327936 on node gaussdb waiting for ShareLock on transaction 139779 after 120000.156 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126396445755136 on node gaussdb waiting for ShareLock on transaction 139725 after 120000.063 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126396760327936 on node gaussdb waiting for ShareLock on transaction 139779 after 120000.156 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357558265600 on node gaussdb waiting for ShareLock on transaction 139843 after 120000.256 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357558265600 on node gaussdb waiting for ShareLock on transaction 139843 after 120000.256 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126361031149312 on node gaussdb waiting for ShareLock on transaction 139797 after 120000.233 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126399629231872 on node gaussdb waiting for AccessExclusiveLock on tuple (312,9) of (relation 17043, bucket 0) of database 14712 after 120000.164 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126361031149312 on node gaussdb waiting for ShareLock on transaction 139797 after 120000.233 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126399629231872 on node gaussdb waiting for AccessExclusiveLock on tuple (312,9) of (relation 17043, bucket 0) of database 14712 after 120000.164 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360917903104 on node gaussdb waiting for ExclusiveLock on tuple (293,1) of (relation 17043, bucket 0) of database 14712 after 120000.069 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360917903104 on node gaussdb waiting for ExclusiveLock on tuple (293,1) of (relation 17043, bucket 0) of database 14712 after 120000.069 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126368639616768 on node gaussdb waiting for ExclusiveLock on tuple (278,21) of (relation 17040, bucket 0) of database 14712 after 120000.071 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126368639616768 on node gaussdb waiting for ExclusiveLock on tuple (278,21) of (relation 17040, bucket 0) of database 14712 after 120000.071 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360276174592 on node gaussdb waiting for ExclusiveLock on tuple (293,1) of (relation 17043, bucket 0) of database 14712 after 120000.113 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360276174592 on node gaussdb waiting for ExclusiveLock on tuple (293,1) of (relation 17043, bucket 0) of database 14712 after 120000.113 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356671170304 on node gaussdb waiting for AccessExclusiveLock on tuple (282,7) of (relation 17043, bucket 0) of database 14712 after 120000.094 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356671170304 on node gaussdb waiting for AccessExclusiveLock on tuple (282,7) of (relation 17043, bucket 0) of database 14712 after 120000.094 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356841039616 on node gaussdb waiting for ExclusiveLock on tuple (293,1) of (relation 17043, bucket 0) of database 14712 after 120000.129 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356841039616 on node gaussdb waiting for ExclusiveLock on tuple (293,1) of (relation 17043, bucket 0) of database 14712 after 120000.129 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360238425856 on node gaussdb waiting for ExclusiveLock on tuple (278,21) of (relation 17040, bucket 0) of database 14712 after 120000.176 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360238425856 on node gaussdb waiting for ExclusiveLock on tuple (278,21) of (relation 17040, bucket 0) of database 14712 after 120000.176 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356897662720 on node gaussdb waiting for ExclusiveLock on tuple (277,2) of (relation 17046, bucket 0) of database 14712 after 120000.103 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359068215040 on node gaussdb waiting for ShareLock on transaction 140157 after 120000.074 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356897662720 on node gaussdb waiting for ExclusiveLock on tuple (277,2) of (relation 17046, bucket 0) of database 14712 after 120000.103 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359068215040 on node gaussdb waiting for ShareLock on transaction 140157 after 120000.074 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126383495841536 on node gaussdb waiting for ShareLock on transaction 140136 after 120000.135 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126383495841536 on node gaussdb waiting for ShareLock on transaction 140136 after 120000.135 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360748033792 on node gaussdb waiting for ExclusiveLock on tuple (134,17) of (relation 17040, bucket 0) of database 14712 after 120000.181 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360748033792 on node gaussdb waiting for ExclusiveLock on tuple (134,17) of (relation 17040, bucket 0) of database 14712 after 120000.181 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357482768128 on node gaussdb waiting for ExclusiveLock on tuple (287,8) of (relation 17040, bucket 0) of database 14712 after 120000.185 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356312557312 on node gaussdb waiting for ShareLock on transaction 140068 after 120000.287 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357482768128 on node gaussdb waiting for ExclusiveLock on tuple (287,8) of (relation 17040, bucket 0) of database 14712 after 120000.185 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356312557312 on node gaussdb waiting for ShareLock on transaction 140068 after 120000.287 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126361865815808 on node gaussdb waiting for ShareLock on transaction 139636 after 120000.156 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126361865815808 on node gaussdb waiting for ShareLock on transaction 139636 after 120000.156 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357633763072 on node gaussdb waiting for ExclusiveLock on tuple (284,13) of (relation 17046, bucket 0) of database 14712 after 120000.249 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357633763072 on node gaussdb waiting for ExclusiveLock on tuple (284,13) of (relation 17046, bucket 0) of database 14712 after 120000.249 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372450141952 on node gaussdb waiting for ExclusiveLock on tuple (274,21) of (relation 17046, bucket 0) of database 14712 after 120000.285 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372450141952 on node gaussdb waiting for ExclusiveLock on tuple (274,21) of (relation 17046, bucket 0) of database 14712 after 120000.285 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356104939264 on node gaussdb waiting for ShareLock on transaction 140254 after 120000.277 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356104939264 on node gaussdb waiting for ShareLock on transaction 140254 after 120000.277 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357916878592 on node gaussdb waiting for AccessExclusiveLock on tuple (275,21) of (relation 17046, bucket 0) of database 14712 after 120000.385 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357916878592 on node gaussdb waiting for AccessExclusiveLock on tuple (275,21) of (relation 17046, bucket 0) of database 14712 after 120000.385 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388422051584 on node gaussdb waiting for ExclusiveLock on tuple (284,13) of (relation 17046, bucket 0) of database 14712 after 120000.272 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388422051584 on node gaussdb waiting for ExclusiveLock on tuple (284,13) of (relation 17046, bucket 0) of database 14712 after 120000.272 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360332797696 on node gaussdb waiting for ExclusiveLock on tuple (283,4) of (relation 17043, bucket 0) of database 14712 after 120000.235 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360332797696 on node gaussdb waiting for ExclusiveLock on tuple (283,4) of (relation 17043, bucket 0) of database 14712 after 120000.235 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126365714089728 on node gaussdb waiting for ShareLock on transaction 140247 after 120000.087 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126365714089728 on node gaussdb waiting for ShareLock on transaction 140247 after 120000.087 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356142688000 on node gaussdb waiting for AccessExclusiveLock on tuple (275,21) of (relation 17046, bucket 0) of database 14712 after 120000.212 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387876792064 on node gaussdb waiting for ExclusiveLock on tuple (275,21) of (relation 17046, bucket 0) of database 14712 after 120000.151 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356142688000 on node gaussdb waiting for AccessExclusiveLock on tuple (275,21) of (relation 17046, bucket 0) of database 14712 after 120000.212 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387876792064 on node gaussdb waiting for ExclusiveLock on tuple (275,21) of (relation 17046, bucket 0) of database 14712 after 120000.151 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126383514715904 on node gaussdb waiting for ExclusiveLock on tuple (275,21) of (relation 17046, bucket 0) of database 14712 after 120000.174 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126383514715904 on node gaussdb waiting for ExclusiveLock on tuple (275,21) of (relation 17046, bucket 0) of database 14712 after 120000.174 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126400195462912 on node gaussdb waiting for ShareLock on transaction 140255 after 120000.271 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126400195462912 on node gaussdb waiting for ShareLock on transaction 140255 after 120000.271 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126382684243712 on node gaussdb waiting for ExclusiveLock on tuple (306,5) of (relation 17043, bucket 0) of database 14712 after 120000.190 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126382684243712 on node gaussdb waiting for ExclusiveLock on tuple (306,5) of (relation 17043, bucket 0) of database 14712 after 120000.190 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389445461760 on node gaussdb waiting for ShareLock on transaction 140053 after 120000.229 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389445461760 on node gaussdb waiting for ShareLock on transaction 140053 after 120000.229 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357124155136 on node gaussdb waiting for ExclusiveLock on tuple (292,8) of (relation 17043, bucket 0) of database 14712 after 120000.136 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357124155136 on node gaussdb waiting for ExclusiveLock on tuple (292,8) of (relation 17043, bucket 0) of database 14712 after 120000.136 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126382971553536 on node gaussdb waiting for ExclusiveLock on tuple (284,5) of (relation 17043, bucket 0) of database 14712 after 120000.223 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126382971553536 on node gaussdb waiting for ExclusiveLock on tuple (284,5) of (relation 17043, bucket 0) of database 14712 after 120000.223 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356199311104 on node gaussdb waiting for ShareLock on transaction 140202 after 120000.131 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356199311104 on node gaussdb waiting for ShareLock on transaction 140202 after 120000.131 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358350989056 on node gaussdb waiting for ExclusiveLock on tuple (287,8) of (relation 17040, bucket 0) of database 14712 after 120000.337 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358350989056 on node gaussdb waiting for ExclusiveLock on tuple (287,8) of (relation 17040, bucket 0) of database 14712 after 120000.337 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358086747904 on node gaussdb waiting for ShareLock on transaction 139800 after 120000.101 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358086747904 on node gaussdb waiting for ShareLock on transaction 139800 after 120000.101 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356463552256 on node gaussdb waiting for AccessExclusiveLock on tuple (274,2) of (relation 17040, bucket 0) of database 14712 after 120000.259 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356463552256 on node gaussdb waiting for AccessExclusiveLock on tuple (274,2) of (relation 17040, bucket 0) of database 14712 after 120000.259 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356237059840 on node gaussdb waiting for ShareLock on transaction 140088 after 120000.305 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356237059840 on node gaussdb waiting for ShareLock on transaction 140088 after 120000.305 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126375935608576 on node gaussdb waiting for ShareLock on transaction 139624 after 120000.545 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126375935608576 on node gaussdb waiting for ShareLock on transaction 139624 after 120000.545 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126393033688832 on node gaussdb waiting for ShareLock on transaction 140150 after 120000.281 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126393033688832 on node gaussdb waiting for ShareLock on transaction 140150 after 120000.281 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356274808576 on node gaussdb waiting for ExclusiveLock on tuple (292,8) of (relation 17043, bucket 0) of database 14712 after 120000.166 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356274808576 on node gaussdb waiting for ExclusiveLock on tuple (292,8) of (relation 17043, bucket 0) of database 14712 after 120000.166 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385429415680 on node gaussdb waiting for ShareLock on transaction 139779 after 120000.177 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385429415680 on node gaussdb waiting for ShareLock on transaction 139779 after 120000.177 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126376797538048 on node gaussdb waiting for ShareLock on transaction 140071 after 120000.099 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126376797538048 on node gaussdb waiting for ShareLock on transaction 140071 after 120000.099 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126376099186432 on node gaussdb waiting for ShareLock on transaction 140301 after 120000.236 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126376099186432 on node gaussdb waiting for ShareLock on transaction 140301 after 120000.236 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389917320960 on node gaussdb waiting for ExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.184 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389917320960 on node gaussdb waiting for ExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.184 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385702045440 on node gaussdb waiting for ExclusiveLock on tuple (283,4) of (relation 17076, bucket 0) of database 14712 after 120000.205 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391838312192 on node gaussdb waiting for ShareLock on transaction 141046 after 120000.336 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385702045440 on node gaussdb waiting for ExclusiveLock on tuple (283,4) of (relation 17076, bucket 0) of database 14712 after 120000.205 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391838312192 on node gaussdb waiting for ShareLock on transaction 141046 after 120000.336 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356406929152 on node gaussdb waiting for ExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.092 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356406929152 on node gaussdb waiting for ExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.092 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358030124800 on node gaussdb waiting for ExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.212 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358030124800 on node gaussdb waiting for ExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.212 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356482426624 on node gaussdb waiting for ShareLock on transaction 141268 after 120000.176 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356482426624 on node gaussdb waiting for ShareLock on transaction 141268 after 120000.176 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372829726464 on node gaussdb waiting for AccessExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.115 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372829726464 on node gaussdb waiting for AccessExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.115 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126375954482944 on node gaussdb waiting for ShareLock on transaction 141525 after 120000.201 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126375954482944 on node gaussdb waiting for ShareLock on transaction 141525 after 120000.201 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389520959232 on node gaussdb waiting for ShareLock on transaction 141499 after 120000.252 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356746667776 on node gaussdb waiting for ShareLock on transaction 141646 after 120000.514 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356746667776 on node gaussdb waiting for ShareLock on transaction 141646 after 120000.514 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389520959232 on node gaussdb waiting for ShareLock on transaction 141499 after 120000.252 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358313240320 on node gaussdb waiting for ShareLock on transaction 141546 after 120000.167 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358313240320 on node gaussdb waiting for ShareLock on transaction 141546 after 120000.167 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360238425856 on node gaussdb waiting for ExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.279 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360238425856 on node gaussdb waiting for ExclusiveLock on tuple (271,20) of (relation 17082, bucket 0) of database 14712 after 120000.279 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372359964416 on node gaussdb waiting for AccessExclusiveLock on tuple (273,22) of (relation 17079, bucket 0) of database 14712 after 120000.194 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372359964416 on node gaussdb waiting for AccessExclusiveLock on tuple (273,22) of (relation 17079, bucket 0) of database 14712 after 120000.194 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            20440
+        write:                           4538
+        other:                           3499
+        total:                           28477
+    transactions:                        1156   (15.64 per sec.)
+    queries:                             28477  (385.26 per sec.)
+    ignored errors:                      304    (4.11 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          73.9140s
+    total number of events:              1156
+
+Latency (ms):
+         min:                                    4.31
+         avg:                                28536.22
+         max:                                73888.93
+         95th percentile:                    72316.52
+         sum:                             32987874.30
+
+Threads fairness:
+    events (avg/stddev):           1.9267/1.07
+    execution time (avg/stddev):   54.9798/17.96
+
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372450141952 on node gaussdb waiting for ShareLock on transaction 143956 after 120000.184 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372450141952 on node gaussdb waiting for ShareLock on transaction 143956 after 120000.184 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389502084864 on node gaussdb waiting for ShareLock on transaction 143992 after 120000.285 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360011933440 on node gaussdb waiting for ExclusiveLock on tuple (282,5) of (relation 17165, bucket 0) of database 14712 after 120000.205 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360011933440 on node gaussdb waiting for ExclusiveLock on tuple (282,5) of (relation 17165, bucket 0) of database 14712 after 120000.205 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389502084864 on node gaussdb waiting for ShareLock on transaction 143992 after 120000.285 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356671170304 on node gaussdb waiting for ShareLock on transaction 144186 after 120000.123 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356671170304 on node gaussdb waiting for ShareLock on transaction 144186 after 120000.123 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389483210496 on node gaussdb waiting for ShareLock on transaction 144016 after 120000.167 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389483210496 on node gaussdb waiting for ShareLock on transaction 144016 after 120000.167 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385683171072 on node gaussdb waiting for ShareLock on transaction 144166 after 120000.402 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385683171072 on node gaussdb waiting for ShareLock on transaction 144166 after 120000.402 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357331773184 on node gaussdb waiting for ShareLock on transaction 144170 after 120000.194 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357331773184 on node gaussdb waiting for ShareLock on transaction 144170 after 120000.194 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357614888704 on node gaussdb waiting for ExclusiveLock on tuple (288,2) of (relation 17165, bucket 0) of database 14712 after 120000.130 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357614888704 on node gaussdb waiting for ExclusiveLock on tuple (288,2) of (relation 17165, bucket 0) of database 14712 after 120000.130 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356520175360 on node gaussdb waiting for ShareLock on transaction 144074 after 120000.095 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385748182784 on node gaussdb waiting for ShareLock on transaction 144083 after 120000.076 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356520175360 on node gaussdb waiting for ShareLock on transaction 144074 after 120000.095 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392347920128 on node gaussdb waiting for ShareLock on transaction 144186 after 120000.232 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392347920128 on node gaussdb waiting for ShareLock on transaction 144186 after 120000.232 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385748182784 on node gaussdb waiting for ShareLock on transaction 144083 after 120000.076 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126396529641216 on node gaussdb waiting for ShareLock on transaction 144124 after 120000.391 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126396529641216 on node gaussdb waiting for ShareLock on transaction 144124 after 120000.391 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389177026304 on node gaussdb waiting for ExclusiveLock on tuple (287,3) of (relation 17165, bucket 0) of database 14712 after 120000.165 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389177026304 on node gaussdb waiting for ExclusiveLock on tuple (287,3) of (relation 17165, bucket 0) of database 14712 after 120000.165 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385783834368 on node gaussdb waiting for ShareLock on transaction 144279 after 120000.138 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126376759789312 on node gaussdb waiting for ShareLock on transaction 144000 after 120000.082 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385783834368 on node gaussdb waiting for ShareLock on transaction 144279 after 120000.138 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126376759789312 on node gaussdb waiting for ShareLock on transaction 144000 after 120000.082 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388648544000 on node gaussdb waiting for ExclusiveLock on tuple (135,11) of (relation 17158, bucket 0) of database 14712 after 120000.100 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388648544000 on node gaussdb waiting for ExclusiveLock on tuple (135,11) of (relation 17158, bucket 0) of database 14712 after 120000.100 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126397471262464 on node gaussdb waiting for ExclusiveLock on tuple (282,5) of (relation 17165, bucket 0) of database 14712 after 120000.171 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358558607104 on node gaussdb waiting for ExclusiveLock on tuple (278,1) of (relation 17165, bucket 0) of database 14712 after 120000.314 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385196631808 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 17158, bucket 0) of database 14712 after 120000.422 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357728134912 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 17158, bucket 0) of database 14712 after 120000.236 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358558607104 on node gaussdb waiting for ExclusiveLock on tuple (278,1) of (relation 17165, bucket 0) of database 14712 after 120000.314 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385196631808 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 17158, bucket 0) of database 14712 after 120000.422 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357728134912 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 17158, bucket 0) of database 14712 after 120000.236 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126381602113280 on node gaussdb waiting for ShareLock on transaction 144238 after 120000.265 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359445702400 on node gaussdb waiting for ExclusiveLock on tuple (280,10) of (relation 17165, bucket 0) of database 14712 after 120000.104 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126381602113280 on node gaussdb waiting for ShareLock on transaction 144238 after 120000.265 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359445702400 on node gaussdb waiting for ExclusiveLock on tuple (280,10) of (relation 17165, bucket 0) of database 14712 after 120000.104 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388705167104 on node gaussdb waiting for ShareLock on transaction 144256 after 120000.082 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388705167104 on node gaussdb waiting for ShareLock on transaction 144256 after 120000.082 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356614547200 on node gaussdb waiting for ExclusiveLock on tuple (277,1) of (relation 17155, bucket 0) of database 14712 after 120000.083 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356614547200 on node gaussdb waiting for ExclusiveLock on tuple (277,1) of (relation 17155, bucket 0) of database 14712 after 120000.083 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359256958720 on node gaussdb waiting for ExclusiveLock on tuple (280,32) of (relation 17155, bucket 0) of database 14712 after 120000.185 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359256958720 on node gaussdb waiting for ExclusiveLock on tuple (280,32) of (relation 17155, bucket 0) of database 14712 after 120000.185 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126397471262464 on node gaussdb waiting for ExclusiveLock on tuple (282,5) of (relation 17165, bucket 0) of database 14712 after 120000.171 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360049682176 on node gaussdb waiting for ShareLock on transaction 144499 after 120000.186 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358313240320 on node gaussdb waiting for ShareLock on transaction 144467 after 120000.103 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360049682176 on node gaussdb waiting for ShareLock on transaction 144499 after 120000.186 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126396565292800 on node gaussdb waiting for ShareLock on transaction 144348 after 120000.385 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358313240320 on node gaussdb waiting for ShareLock on transaction 144467 after 120000.103 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126396565292800 on node gaussdb waiting for ShareLock on transaction 144348 after 120000.385 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126368562022144 on node gaussdb waiting for ExclusiveLock on tuple (294,6) of (relation 17155, bucket 0) of database 14712 after 120000.179 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389139277568 on node gaussdb waiting for ShareLock on transaction 144158 after 120000.072 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126368562022144 on node gaussdb waiting for ExclusiveLock on tuple (294,6) of (relation 17155, bucket 0) of database 14712 after 120000.179 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389139277568 on node gaussdb waiting for ShareLock on transaction 144158 after 120000.072 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126361903564544 on node gaussdb waiting for ExclusiveLock on tuple (275,2) of (relation 17155, bucket 0) of database 14712 after 120000.104 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357463893760 on node gaussdb waiting for ExclusiveLock on tuple (276,7) of (relation 17155, bucket 0) of database 14712 after 120000.199 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126361903564544 on node gaussdb waiting for ExclusiveLock on tuple (275,2) of (relation 17155, bucket 0) of database 14712 after 120000.104 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357463893760 on node gaussdb waiting for ExclusiveLock on tuple (276,7) of (relation 17155, bucket 0) of database 14712 after 120000.199 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126384533931776 on node gaussdb waiting for ShareLock on transaction 144440 after 120000.253 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126384533931776 on node gaussdb waiting for ShareLock on transaction 144440 after 120000.253 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126369711261440 on node gaussdb waiting for ShareLock on transaction 144328 after 120000.139 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126369711261440 on node gaussdb waiting for ShareLock on transaction 144328 after 120000.139 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389120403200 on node gaussdb waiting for ShareLock on transaction 144576 after 120000.730 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389426587392 on node gaussdb waiting for ShareLock on transaction 144400 after 120000.438 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389120403200 on node gaussdb waiting for ShareLock on transaction 144576 after 120000.730 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389426587392 on node gaussdb waiting for ShareLock on transaction 144400 after 120000.438 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360162928384 on node gaussdb waiting for AccessExclusiveLock on tuple (280,10) of (relation 17165, bucket 0) of database 14712 after 120000.088 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360162928384 on node gaussdb waiting for AccessExclusiveLock on tuple (280,10) of (relation 17165, bucket 0) of database 14712 after 120000.088 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126377397323520 on node gaussdb waiting for ExclusiveLock on tuple (285,5) of (relation 17165, bucket 0) of database 14712 after 120000.810 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126377397323520 on node gaussdb waiting for ExclusiveLock on tuple (285,5) of (relation 17165, bucket 0) of database 14712 after 120000.810 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385802708736 on node gaussdb waiting for ShareLock on transaction 144548 after 120000.680 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385802708736 on node gaussdb waiting for ShareLock on transaction 144548 after 120000.680 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359540074240 on node gaussdb waiting for ExclusiveLock on tuple (287,3) of (relation 17165, bucket 0) of database 14712 after 120000.181 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388554172160 on node gaussdb waiting for AccessExclusiveLock on tuple (294,6) of (relation 17155, bucket 0) of database 14712 after 120000.090 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359540074240 on node gaussdb waiting for ExclusiveLock on tuple (287,3) of (relation 17165, bucket 0) of database 14712 after 120000.181 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359974184704 on node gaussdb waiting for ExclusiveLock on tuple (135,34) of (relation 17165, bucket 0) of database 14712 after 120000.076 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358841722624 on node gaussdb waiting for ExclusiveLock on tuple (278,1) of (relation 17165, bucket 0) of database 14712 after 120000.101 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388554172160 on node gaussdb waiting for AccessExclusiveLock on tuple (294,6) of (relation 17155, bucket 0) of database 14712 after 120000.090 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359974184704 on node gaussdb waiting for ExclusiveLock on tuple (135,34) of (relation 17165, bucket 0) of database 14712 after 120000.076 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358841722624 on node gaussdb waiting for ExclusiveLock on tuple (278,1) of (relation 17165, bucket 0) of database 14712 after 120000.101 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357426145024 on node gaussdb waiting for ExclusiveLock on tuple (135,34) of (relation 17165, bucket 0) of database 14712 after 120000.088 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358105622272 on node gaussdb waiting for ShareLock on transaction 144379 after 120000.144 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358105622272 on node gaussdb waiting for ShareLock on transaction 144379 after 120000.144 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357426145024 on node gaussdb waiting for ExclusiveLock on tuple (135,34) of (relation 17165, bucket 0) of database 14712 after 120000.088 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391630694144 on node gaussdb waiting for ExclusiveLock on tuple (280,32) of (relation 17155, bucket 0) of database 14712 after 120000.181 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391630694144 on node gaussdb waiting for ExclusiveLock on tuple (280,32) of (relation 17155, bucket 0) of database 14712 after 120000.181 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392196925184 on node gaussdb waiting for AccessExclusiveLock on tuple (282,22) of (relation 17158, bucket 0) of database 14712 after 120001.162 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387513984768 on node gaussdb waiting for ShareLock on transaction 144307 after 120002.206 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392196925184 on node gaussdb waiting for AccessExclusiveLock on tuple (282,22) of (relation 17158, bucket 0) of database 14712 after 120001.162 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387513984768 on node gaussdb waiting for ShareLock on transaction 144307 after 120002.206 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126395638351616 on node gaussdb waiting for ExclusiveLock on tuple (282,22) of (relation 17158, bucket 0) of database 14712 after 120000.163 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389445461760 on node gaussdb waiting for ExclusiveLock on tuple (276,19) of (relation 17158, bucket 0) of database 14712 after 120001.372 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359124838144 on node gaussdb waiting for ExclusiveLock on tuple (282,2) of (relation 17155, bucket 0) of database 14712 after 120003.917 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371915368192 on node gaussdb waiting for ExclusiveLock on tuple (284,9) of (relation 17165, bucket 0) of database 14712 after 120001.855 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126370845820672 on node gaussdb waiting for ExclusiveLock on tuple (135,11) of (relation 17158, bucket 0) of database 14712 after 120000.194 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126395638351616 on node gaussdb waiting for ExclusiveLock on tuple (282,22) of (relation 17158, bucket 0) of database 14712 after 120000.163 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357143029504 on node gaussdb waiting for ExclusiveLock on tuple (277,1) of (relation 17155, bucket 0) of database 14712 after 120000.104 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359426828032 on node gaussdb waiting for ExclusiveLock on tuple (295,13) of (relation 17165, bucket 0) of database 14712 after 120002.192 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391404201728 on node gaussdb waiting for ExclusiveLock on tuple (282,26) of (relation 17158, bucket 0) of database 14712 after 120004.337 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391989307136 on node gaussdb waiting for ExclusiveLock on tuple (280,32) of (relation 17155, bucket 0) of database 14712 after 120000.185 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389445461760 on node gaussdb waiting for ExclusiveLock on tuple (276,19) of (relation 17158, bucket 0) of database 14712 after 120001.372 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357143029504 on node gaussdb waiting for ExclusiveLock on tuple (277,1) of (relation 17155, bucket 0) of database 14712 after 120000.104 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357124155136 on node gaussdb waiting for ExclusiveLock on tuple (288,16) of (relation 17165, bucket 0) of database 14712 after 120000.144 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388629669632 on node gaussdb waiting for ExclusiveLock on tuple (270,35) of (relation 17165, bucket 0) of database 14712 after 120003.327 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357124155136 on node gaussdb waiting for ExclusiveLock on tuple (288,16) of (relation 17165, bucket 0) of database 14712 after 120000.144 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359426828032 on node gaussdb waiting for ExclusiveLock on tuple (295,13) of (relation 17165, bucket 0) of database 14712 after 120002.192 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371915368192 on node gaussdb waiting for ExclusiveLock on tuple (284,9) of (relation 17165, bucket 0) of database 14712 after 120001.855 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389158151936 on node gaussdb waiting for ExclusiveLock on tuple (280,10) of (relation 17165, bucket 0) of database 14712 after 120000.539 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391989307136 on node gaussdb waiting for ExclusiveLock on tuple (280,32) of (relation 17155, bucket 0) of database 14712 after 120000.185 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388073924352 on node gaussdb waiting for ExclusiveLock on tuple (136,2) of (relation 17155, bucket 0) of database 14712 after 120002.914 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389158151936 on node gaussdb waiting for ExclusiveLock on tuple (280,10) of (relation 17165, bucket 0) of database 14712 after 120000.539 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358067873536 on node gaussdb waiting for ShareLock on transaction 144400 after 120005.314 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126370845820672 on node gaussdb waiting for ExclusiveLock on tuple (135,11) of (relation 17158, bucket 0) of database 14712 after 120000.194 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391800563456 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 17158, bucket 0) of database 14712 after 120001.439 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358067873536 on node gaussdb waiting for ShareLock on transaction 144400 after 120005.314 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391800563456 on node gaussdb waiting for ExclusiveLock on tuple (288,3) of (relation 17158, bucket 0) of database 14712 after 120001.439 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388629669632 on node gaussdb waiting for ExclusiveLock on tuple (270,35) of (relation 17165, bucket 0) of database 14712 after 120003.327 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391404201728 on node gaussdb waiting for ExclusiveLock on tuple (282,26) of (relation 17158, bucket 0) of database 14712 after 120004.337 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126376493451008 on node gaussdb waiting for ExclusiveLock on tuple (275,2) of (relation 17155, bucket 0) of database 14712 after 120000.186 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359124838144 on node gaussdb waiting for ExclusiveLock on tuple (282,2) of (relation 17155, bucket 0) of database 14712 after 120003.917 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356954285824 on node gaussdb waiting for AccessExclusiveLock on tuple (136,6) of (relation 17158, bucket 0) of database 14712 after 120007.409 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372987012864 on node gaussdb waiting for ExclusiveLock on tuple (135,11) of (relation 17158, bucket 0) of database 14712 after 120003.790 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388073924352 on node gaussdb waiting for ExclusiveLock on tuple (136,2) of (relation 17155, bucket 0) of database 14712 after 120002.914 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356954285824 on node gaussdb waiting for AccessExclusiveLock on tuple (136,6) of (relation 17158, bucket 0) of database 14712 after 120007.409 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126376493451008 on node gaussdb waiting for ExclusiveLock on tuple (275,2) of (relation 17155, bucket 0) of database 14712 after 120000.186 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391536322304 on node gaussdb waiting for ExclusiveLock on tuple (136,2) of (relation 17155, bucket 0) of database 14712 after 120000.195 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372987012864 on node gaussdb waiting for ExclusiveLock on tuple (135,11) of (relation 17158, bucket 0) of database 14712 after 120003.790 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360729159424 on node gaussdb waiting for ExclusiveLock on tuple (136,6) of (relation 17158, bucket 0) of database 14712 after 120004.105 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356557924096 on node gaussdb waiting for AccessExclusiveLock on tuple (135,11) of (relation 17158, bucket 0) of database 14712 after 120000.131 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391536322304 on node gaussdb waiting for ExclusiveLock on tuple (136,2) of (relation 17155, bucket 0) of database 14712 after 120000.195 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357218526976 on node gaussdb waiting for ExclusiveLock on tuple (276,19) of (relation 17158, bucket 0) of database 14712 after 120003.219 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356557924096 on node gaussdb waiting for AccessExclusiveLock on tuple (135,11) of (relation 17158, bucket 0) of database 14712 after 120000.131 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357218526976 on node gaussdb waiting for ExclusiveLock on tuple (276,19) of (relation 17158, bucket 0) of database 14712 after 120003.219 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360729159424 on node gaussdb waiting for ExclusiveLock on tuple (136,6) of (relation 17158, bucket 0) of database 14712 after 120004.105 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387952289536 on node gaussdb waiting for ExclusiveLock on tuple (287,9) of (relation 17158, bucket 0) of database 14712 after 120000.364 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360521541376 on node gaussdb waiting for ExclusiveLock on tuple (276,7) of (relation 17155, bucket 0) of database 14712 after 120000.319 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387952289536 on node gaussdb waiting for ExclusiveLock on tuple (287,9) of (relation 17158, bucket 0) of database 14712 after 120000.364 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360521541376 on node gaussdb waiting for ExclusiveLock on tuple (276,7) of (relation 17155, bucket 0) of database 14712 after 120000.319 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126399629231872 on node gaussdb waiting for ShareLock on transaction 144498 after 120000.226 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126399629231872 on node gaussdb waiting for ShareLock on transaction 144498 after 120000.226 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391838312192 on node gaussdb waiting for AccessExclusiveLock on tuple (289,2) of (relation 17155, bucket 0) of database 14712 after 120000.364 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391838312192 on node gaussdb waiting for AccessExclusiveLock on tuple (289,2) of (relation 17155, bucket 0) of database 14712 after 120000.364 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126377416197888 on node gaussdb waiting for ShareLock on transaction 144560 after 120000.082 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126377416197888 on node gaussdb waiting for ShareLock on transaction 144560 after 120000.082 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359011591936 on node gaussdb waiting for ExclusiveLock on tuple (276,15) of (relation 17158, bucket 0) of database 14712 after 120000.229 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389615331072 on node gaussdb waiting for ExclusiveLock on tuple (275,27) of (relation 17165, bucket 0) of database 14712 after 120000.073 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389615331072 on node gaussdb waiting for ExclusiveLock on tuple (275,27) of (relation 17165, bucket 0) of database 14712 after 120000.073 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359011591936 on node gaussdb waiting for ExclusiveLock on tuple (276,15) of (relation 17158, bucket 0) of database 14712 after 120000.229 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359389079296 on node gaussdb waiting for ShareLock on transaction 144289 after 120000.336 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359389079296 on node gaussdb waiting for ShareLock on transaction 144289 after 120000.336 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360087430912 on node gaussdb waiting for ShareLock on transaction 144717 after 120000.255 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360087430912 on node gaussdb waiting for ShareLock on transaction 144717 after 120000.255 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357633763072 on node gaussdb waiting for ShareLock on transaction 144126 after 120000.785 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357633763072 on node gaussdb waiting for ShareLock on transaction 144126 after 120000.785 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356576798464 on node gaussdb waiting for ExclusiveLock on tuple (278,7) of (relation 17158, bucket 0) of database 14712 after 120000.456 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356576798464 on node gaussdb waiting for ExclusiveLock on tuple (278,7) of (relation 17158, bucket 0) of database 14712 after 120000.456 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357275150080 on node gaussdb waiting for ShareLock on transaction 144538 after 120000.301 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357275150080 on node gaussdb waiting for ShareLock on transaction 144538 after 120000.301 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391498573568 on node gaussdb waiting for ExclusiveLock on tuple (273,33) of (relation 17165, bucket 0) of database 14712 after 120000.167 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391498573568 on node gaussdb waiting for ExclusiveLock on tuple (273,33) of (relation 17165, bucket 0) of database 14712 after 120000.167 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392008181504 on node gaussdb waiting for ExclusiveLock on tuple (291,25) of (relation 17155, bucket 0) of database 14712 after 120000.218 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392008181504 on node gaussdb waiting for ExclusiveLock on tuple (291,25) of (relation 17155, bucket 0) of database 14712 after 120000.218 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359049340672 on node gaussdb waiting for AccessExclusiveLock on tuple (295,13) of (relation 17165, bucket 0) of database 14712 after 120000.216 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359049340672 on node gaussdb waiting for AccessExclusiveLock on tuple (295,13) of (relation 17165, bucket 0) of database 14712 after 120000.216 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358841722624 on node gaussdb waiting for ExclusiveLock on tuple (273,14) of (relation 17191, bucket 0) of database 14712 after 120000.091 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358841722624 on node gaussdb waiting for ExclusiveLock on tuple (273,14) of (relation 17191, bucket 0) of database 14712 after 120000.091 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357388396288 on node gaussdb waiting for ShareLock on transaction 145602 after 120000.141 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126376797538048 on node gaussdb waiting for ShareLock on transaction 145534 after 120000.157 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357388396288 on node gaussdb waiting for ShareLock on transaction 145602 after 120000.141 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126376797538048 on node gaussdb waiting for ShareLock on transaction 145534 after 120000.157 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357558265600 on node gaussdb waiting for AccessExclusiveLock on tuple (290,5) of (relation 17201, bucket 0) of database 14712 after 120000.187 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357558265600 on node gaussdb waiting for AccessExclusiveLock on tuple (290,5) of (relation 17201, bucket 0) of database 14712 after 120000.187 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389917320960 on node gaussdb waiting for ShareLock on transaction 145676 after 120000.423 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389917320960 on node gaussdb waiting for ShareLock on transaction 145676 after 120000.423 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126384938682112 on node gaussdb waiting for ExclusiveLock on tuple (273,36) of (relation 17201, bucket 0) of database 14712 after 120000.328 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126384938682112 on node gaussdb waiting for ExclusiveLock on tuple (273,36) of (relation 17201, bucket 0) of database 14712 after 120000.328 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392310171392 on node gaussdb waiting for ExclusiveLock on tuple (273,14) of (relation 17191, bucket 0) of database 14712 after 120000.581 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392310171392 on node gaussdb waiting for ExclusiveLock on tuple (273,14) of (relation 17191, bucket 0) of database 14712 after 120000.581 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372521445120 on node gaussdb waiting for ShareLock on transaction 145589 after 120000.192 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372521445120 on node gaussdb waiting for ShareLock on transaction 145589 after 120000.192 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388969408256 on node gaussdb waiting for ShareLock on transaction 145834 after 120000.191 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388969408256 on node gaussdb waiting for ShareLock on transaction 145834 after 120000.191 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358445360896 on node gaussdb waiting for AccessExclusiveLock on tuple (290,5) of (relation 17201, bucket 0) of database 14712 after 120000.213 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358445360896 on node gaussdb waiting for AccessExclusiveLock on tuple (290,5) of (relation 17201, bucket 0) of database 14712 after 120000.213 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359426828032 on node gaussdb waiting for ExclusiveLock on tuple (278,7) of (relation 17191, bucket 0) of database 14712 after 120000.134 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359426828032 on node gaussdb waiting for ExclusiveLock on tuple (278,7) of (relation 17191, bucket 0) of database 14712 after 120000.134 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358067873536 on node gaussdb waiting for AccessExclusiveLock on tuple (280,19) of (relation 17194, bucket 0) of database 14712 after 120000.268 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358067873536 on node gaussdb waiting for AccessExclusiveLock on tuple (280,19) of (relation 17194, bucket 0) of database 14712 after 120000.268 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388648544000 on node gaussdb waiting for ExclusiveLock on tuple (273,36) of (relation 17201, bucket 0) of database 14712 after 120000.089 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388648544000 on node gaussdb waiting for ExclusiveLock on tuple (273,36) of (relation 17201, bucket 0) of database 14712 after 120000.089 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385123231488 on node gaussdb waiting for ShareLock on transaction 145848 after 120000.082 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385123231488 on node gaussdb waiting for ShareLock on transaction 145848 after 120000.082 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391687317248 on node gaussdb waiting for AccessExclusiveLock on tuple (282,2) of (relation 17194, bucket 0) of database 14712 after 120000.463 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391687317248 on node gaussdb waiting for AccessExclusiveLock on tuple (282,2) of (relation 17194, bucket 0) of database 14712 after 120000.463 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388837287680 on node gaussdb waiting for AccessExclusiveLock on tuple (278,3) of (relation 17191, bucket 0) of database 14712 after 120000.079 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388837287680 on node gaussdb waiting for AccessExclusiveLock on tuple (278,3) of (relation 17191, bucket 0) of database 14712 after 120000.079 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357784758016 on node gaussdb waiting for ShareLock on transaction 145792 after 120000.088 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357784758016 on node gaussdb waiting for ShareLock on transaction 145792 after 120000.088 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371783247616 on node gaussdb waiting for ExclusiveLock on tuple (282,2) of (relation 17194, bucket 0) of database 14712 after 120000.077 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371783247616 on node gaussdb waiting for ExclusiveLock on tuple (282,2) of (relation 17194, bucket 0) of database 14712 after 120000.077 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388346554112 on node gaussdb waiting for ShareLock on transaction 145842 after 120000.175 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388346554112 on node gaussdb waiting for ShareLock on transaction 145842 after 120000.175 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385196631808 on node gaussdb waiting for AccessExclusiveLock on tuple (280,19) of (relation 17194, bucket 0) of database 14712 after 120000.090 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385196631808 on node gaussdb waiting for AccessExclusiveLock on tuple (280,19) of (relation 17194, bucket 0) of database 14712 after 120000.090 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391253206784 on node gaussdb waiting for ShareLock on transaction 145889 after 120000.081 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391253206784 on node gaussdb waiting for ShareLock on transaction 145889 after 120000.081 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356595672832 on node gaussdb waiting for AccessExclusiveLock on tuple (280,19) of (relation 17194, bucket 0) of database 14712 after 120000.138 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356595672832 on node gaussdb waiting for AccessExclusiveLock on tuple (280,19) of (relation 17194, bucket 0) of database 14712 after 120000.138 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359294707456 on node gaussdb waiting for ShareLock on transaction 146033 after 120000.191 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359294707456 on node gaussdb waiting for ShareLock on transaction 146033 after 120000.191 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126361012274944 on node gaussdb waiting for ExclusiveLock on tuple (273,14) of (relation 17191, bucket 0) of database 14712 after 120000.078 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126361012274944 on node gaussdb waiting for ExclusiveLock on tuple (273,14) of (relation 17191, bucket 0) of database 14712 after 120000.078 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358275491584 on node gaussdb waiting for ShareLock on transaction 145848 after 120000.160 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358275491584 on node gaussdb waiting for ShareLock on transaction 145848 after 120000.160 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357369521920 on node gaussdb waiting for ShareLock on transaction 145951 after 120000.083 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360804656896 on node gaussdb waiting for ExclusiveLock on tuple (273,8) of (relation 17201, bucket 0) of database 14712 after 120000.072 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358501984000 on node gaussdb waiting for ExclusiveLock on tuple (278,3) of (relation 17191, bucket 0) of database 14712 after 120000.109 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357369521920 on node gaussdb waiting for ShareLock on transaction 145951 after 120000.083 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358501984000 on node gaussdb waiting for ExclusiveLock on tuple (278,3) of (relation 17191, bucket 0) of database 14712 after 120000.109 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360804656896 on node gaussdb waiting for ExclusiveLock on tuple (273,8) of (relation 17201, bucket 0) of database 14712 after 120000.072 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356255934208 on node gaussdb waiting for AccessExclusiveLock on tuple (302,1) of (relation 17191, bucket 0) of database 14712 after 120000.155 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356255934208 on node gaussdb waiting for AccessExclusiveLock on tuple (302,1) of (relation 17191, bucket 0) of database 14712 after 120000.155 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371030370048 on node gaussdb waiting for ExclusiveLock on tuple (282,30) of (relation 17194, bucket 0) of database 14712 after 120000.151 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371030370048 on node gaussdb waiting for ExclusiveLock on tuple (282,30) of (relation 17194, bucket 0) of database 14712 after 120000.151 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385702045440 on node gaussdb waiting for ShareLock on transaction 145953 after 120000.117 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385702045440 on node gaussdb waiting for ShareLock on transaction 145953 after 120000.117 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126393060951808 on node gaussdb waiting for ShareLock on transaction 146019 after 120000.105 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126393060951808 on node gaussdb waiting for ShareLock on transaction 146019 after 120000.105 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372026517248 on node gaussdb waiting for AccessExclusiveLock on tuple (282,2) of (relation 17194, bucket 0) of database 14712 after 120000.043 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372026517248 on node gaussdb waiting for AccessExclusiveLock on tuple (282,2) of (relation 17194, bucket 0) of database 14712 after 120000.043 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357237401344 on node gaussdb waiting for ExclusiveLock on tuple (282,2) of (relation 17194, bucket 0) of database 14712 after 120000.347 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357237401344 on node gaussdb waiting for ExclusiveLock on tuple (282,2) of (relation 17194, bucket 0) of database 14712 after 120000.347 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356859913984 on node gaussdb waiting for ExclusiveLock on tuple (278,7) of (relation 17191, bucket 0) of database 14712 after 120000.206 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356859913984 on node gaussdb waiting for ExclusiveLock on tuple (278,7) of (relation 17191, bucket 0) of database 14712 after 120000.206 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126396445755136 on node gaussdb waiting for ShareLock on transaction 145909 after 120000.493 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126396445755136 on node gaussdb waiting for ShareLock on transaction 145909 after 120000.493 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359389079296 on node gaussdb waiting for ShareLock on transaction 145893 after 120000.223 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359389079296 on node gaussdb waiting for ShareLock on transaction 145893 after 120000.223 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387513984768 on node gaussdb waiting for ShareLock on transaction 145806 after 120000.587 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387513984768 on node gaussdb waiting for ShareLock on transaction 145806 after 120000.587 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            21224
+        write:                           4751
+        other:                           3617
+        total:                           29592
+    transactions:                        1222   (17.52 per sec.)
+    queries:                             29592  (424.31 per sec.)
+    ignored errors:                      294    (4.22 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          69.7391s
+    total number of events:              1222
+
+Latency (ms):
+         min:                                    3.19
+         avg:                                27903.64
+         max:                                69731.22
+         95th percentile:                    69758.52
+         sum:                             34098251.71
+
+Threads fairness:
+    events (avg/stddev):           2.0367/1.24
+    execution time (avg/stddev):   56.8304/12.72
+
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388422051584 on node gaussdb waiting for ShareLock on transaction 1058681 after 120000.133 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388422051584 on node gaussdb waiting for ShareLock on transaction 1058681 after 120000.133 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392045930240 on node gaussdb waiting for ShareLock on transaction 1058816 after 120000.099 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392045930240 on node gaussdb waiting for ShareLock on transaction 1058816 after 120000.099 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391668442880 on node gaussdb waiting for ExclusiveLock on tuple (294,21) of (relation 19360, bucket 0) of database 14712 after 120000.081 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391668442880 on node gaussdb waiting for ExclusiveLock on tuple (294,21) of (relation 19360, bucket 0) of database 14712 after 120000.081 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126399629231872 on node gaussdb waiting for AccessExclusiveLock on tuple (279,21) of (relation 19360, bucket 0) of database 14712 after 120000.177 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126399629231872 on node gaussdb waiting for AccessExclusiveLock on tuple (279,21) of (relation 19360, bucket 0) of database 14712 after 120000.177 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126384938682112 on node gaussdb waiting for ExclusiveLock on tuple (276,3) of (relation 19360, bucket 0) of database 14712 after 120000.124 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126384938682112 on node gaussdb waiting for ExclusiveLock on tuple (276,3) of (relation 19360, bucket 0) of database 14712 after 120000.124 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372829726464 on node gaussdb waiting for ShareLock on transaction 1058737 after 120000.161 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372829726464 on node gaussdb waiting for ShareLock on transaction 1058737 after 120000.161 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360993400576 on node gaussdb waiting for ExclusiveLock on tuple (274,10) of (relation 19360, bucket 0) of database 14712 after 120000.263 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360993400576 on node gaussdb waiting for ExclusiveLock on tuple (274,10) of (relation 19360, bucket 0) of database 14712 after 120000.263 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126361884690176 on node gaussdb waiting for ShareLock on transaction 1059110 after 120000.301 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126361884690176 on node gaussdb waiting for ShareLock on transaction 1059110 after 120000.301 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357658928896 on node gaussdb waiting for ExclusiveLock on tuple (276,3) of (relation 19360, bucket 0) of database 14712 after 120000.124 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357658928896 on node gaussdb waiting for ExclusiveLock on tuple (276,3) of (relation 19360, bucket 0) of database 14712 after 120000.124 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359766566656 on node gaussdb waiting for ExclusiveLock on tuple (274,10) of (relation 19360, bucket 0) of database 14712 after 120000.240 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359766566656 on node gaussdb waiting for ExclusiveLock on tuple (274,10) of (relation 19360, bucket 0) of database 14712 after 120000.240 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387895666432 on node gaussdb waiting for ShareLock on transaction 1059240 after 120000.292 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387895666432 on node gaussdb waiting for ShareLock on transaction 1059240 after 120000.292 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391706191616 on node gaussdb waiting for ExclusiveLock on tuple (272,27) of (relation 19365, bucket 0) of database 14712 after 120000.366 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391706191616 on node gaussdb waiting for ExclusiveLock on tuple (272,27) of (relation 19365, bucket 0) of database 14712 after 120000.366 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360295048960 on node gaussdb waiting for ExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.154 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360295048960 on node gaussdb waiting for ExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.154 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389558707968 on node gaussdb waiting for AccessExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.269 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389558707968 on node gaussdb waiting for AccessExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.269 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392102553344 on node gaussdb waiting for ShareLock on transaction 1060402 after 120000.141 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392102553344 on node gaussdb waiting for ShareLock on transaction 1060402 after 120000.141 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391272081152 on node gaussdb waiting for ExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.112 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391272081152 on node gaussdb waiting for ExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.112 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391347578624 on node gaussdb waiting for ShareLock on transaction 1060406 after 120000.207 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391347578624 on node gaussdb waiting for ShareLock on transaction 1060406 after 120000.207 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126355966527232 on node gaussdb waiting for ShareLock on transaction 1060447 after 120000.100 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126355966527232 on node gaussdb waiting for ShareLock on transaction 1060447 after 120000.100 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358728476416 on node gaussdb waiting for ShareLock on transaction 1060401 after 120000.075 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392027055872 on node gaussdb waiting for ExclusiveLock on tuple (273,14) of (relation 19398, bucket 0) of database 14712 after 120000.148 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358728476416 on node gaussdb waiting for ShareLock on transaction 1060401 after 120000.075 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392027055872 on node gaussdb waiting for ExclusiveLock on tuple (273,14) of (relation 19398, bucket 0) of database 14712 after 120000.148 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358747350784 on node gaussdb waiting for ExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.105 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358747350784 on node gaussdb waiting for ExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.105 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358615230208 on node gaussdb waiting for ShareLock on transaction 1060406 after 120000.196 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358615230208 on node gaussdb waiting for ShareLock on transaction 1060406 after 120000.196 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389063780096 on node gaussdb waiting for AccessExclusiveLock on tuple (271,7) of (relation 19401, bucket 0) of database 14712 after 120000.154 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360370546432 on node gaussdb waiting for ShareLock on transaction 1060320 after 120000.158 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389063780096 on node gaussdb waiting for AccessExclusiveLock on tuple (271,7) of (relation 19401, bucket 0) of database 14712 after 120000.154 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360370546432 on node gaussdb waiting for ShareLock on transaction 1060320 after 120000.158 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126370954872576 on node gaussdb waiting for ShareLock on transaction 1060471 after 120000.123 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126370954872576 on node gaussdb waiting for ShareLock on transaction 1060471 after 120000.123 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391725065984 on node gaussdb waiting for ExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.489 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391725065984 on node gaussdb waiting for ExclusiveLock on tuple (292,2) of (relation 19395, bucket 0) of database 14712 after 120000.489 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388969408256 on node gaussdb waiting for ShareLock on transaction 1060682 after 120000.203 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388969408256 on node gaussdb waiting for ShareLock on transaction 1060682 after 120000.203 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            16870
+        write:                           3757
+        other:                           2808
+        total:                           23435
+    transactions:                        945    (10.20 per sec.)
+    queries:                             23435  (253.04 per sec.)
+    ignored errors:                      260    (2.81 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          92.6091s
+    total number of events:              945
+
+Latency (ms):
+         min:                                    1.48
+         avg:                                47933.27
+         max:                                92581.78
+         95th percentile:                    93050.66
+         sum:                             45296941.89
+
+Threads fairness:
+    events (avg/stddev):           1.5750/0.78
+    execution time (avg/stddev):   75.4949/21.99
+
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357677803264 on node gaussdb waiting for ExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.065 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357677803264 on node gaussdb waiting for ExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.065 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126395707557632 on node gaussdb waiting for ExclusiveLock on tuple (285,7) of (relation 19470, bucket 0) of database 14712 after 120000.248 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126395707557632 on node gaussdb waiting for ExclusiveLock on tuple (285,7) of (relation 19470, bucket 0) of database 14712 after 120000.248 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126369235207936 on node gaussdb waiting for ShareLock on transaction 1063100 after 120000.107 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126369235207936 on node gaussdb waiting for ShareLock on transaction 1063100 after 120000.107 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126361903564544 on node gaussdb waiting for ShareLock on transaction 1063078 after 120000.064 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126361903564544 on node gaussdb waiting for ShareLock on transaction 1063078 after 120000.064 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389690828544 on node gaussdb waiting for ExclusiveLock on tuple (297,4) of (relation 19467, bucket 0) of database 14712 after 120000.092 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389690828544 on node gaussdb waiting for ExclusiveLock on tuple (297,4) of (relation 19467, bucket 0) of database 14712 after 120000.092 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388648544000 on node gaussdb waiting for ExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.173 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392291297024 on node gaussdb waiting for ExclusiveLock on tuple (290,8) of (relation 19470, bucket 0) of database 14712 after 120000.123 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388648544000 on node gaussdb waiting for ExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.173 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391460824832 on node gaussdb waiting for AccessExclusiveLock on tuple (291,7) of (relation 19467, bucket 0) of database 14712 after 120000.335 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391460824832 on node gaussdb waiting for AccessExclusiveLock on tuple (291,7) of (relation 19467, bucket 0) of database 14712 after 120000.335 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392291297024 on node gaussdb waiting for ExclusiveLock on tuple (290,8) of (relation 19470, bucket 0) of database 14712 after 120000.123 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385316169472 on node gaussdb waiting for ShareLock on transaction 1063213 after 120000.057 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385316169472 on node gaussdb waiting for ShareLock on transaction 1063213 after 120000.057 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360295048960 on node gaussdb waiting for ExclusiveLock on tuple (291,7) of (relation 19467, bucket 0) of database 14712 after 120000.124 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360295048960 on node gaussdb waiting for ExclusiveLock on tuple (291,7) of (relation 19467, bucket 0) of database 14712 after 120000.124 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126379819534080 on node gaussdb waiting for ShareLock on transaction 1063125 after 120000.188 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359275833088 on node gaussdb waiting for ExclusiveLock on tuple (271,13) of (relation 19470, bucket 0) of database 14712 after 120000.111 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126379819534080 on node gaussdb waiting for ShareLock on transaction 1063125 after 120000.188 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359275833088 on node gaussdb waiting for ExclusiveLock on tuple (271,13) of (relation 19470, bucket 0) of database 14712 after 120000.111 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357205944064 on node gaussdb waiting for AccessExclusiveLock on tuple (310,9) of (relation 19470, bucket 0) of database 14712 after 120000.231 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357205944064 on node gaussdb waiting for AccessExclusiveLock on tuple (310,9) of (relation 19470, bucket 0) of database 14712 after 120000.231 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357092697856 on node gaussdb waiting for ExclusiveLock on tuple (291,7) of (relation 19467, bucket 0) of database 14712 after 120000.066 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357092697856 on node gaussdb waiting for ExclusiveLock on tuple (291,7) of (relation 19467, bucket 0) of database 14712 after 120000.066 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360559290112 on node gaussdb waiting for ShareLock on transaction 1063189 after 120000.102 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360559290112 on node gaussdb waiting for ShareLock on transaction 1063189 after 120000.102 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358671853312 on node gaussdb waiting for ExclusiveLock on tuple (295,14) of (relation 19473, bucket 0) of database 14712 after 120000.125 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358671853312 on node gaussdb waiting for ExclusiveLock on tuple (295,14) of (relation 19473, bucket 0) of database 14712 after 120000.125 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388478674688 on node gaussdb waiting for ShareLock on transaction 1063233 after 120000.224 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388478674688 on node gaussdb waiting for ShareLock on transaction 1063233 after 120000.224 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357545682688 on node gaussdb waiting for ExclusiveLock on tuple (310,9) of (relation 19470, bucket 0) of database 14712 after 120000.135 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357545682688 on node gaussdb waiting for ExclusiveLock on tuple (310,9) of (relation 19470, bucket 0) of database 14712 after 120000.135 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358992717568 on node gaussdb waiting for ExclusiveLock on tuple (291,7) of (relation 19467, bucket 0) of database 14712 after 120000.182 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358992717568 on node gaussdb waiting for ExclusiveLock on tuple (291,7) of (relation 19467, bucket 0) of database 14712 after 120000.182 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360219551488 on node gaussdb waiting for AccessExclusiveLock on tuple (310,9) of (relation 19470, bucket 0) of database 14712 after 120000.279 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360219551488 on node gaussdb waiting for AccessExclusiveLock on tuple (310,9) of (relation 19470, bucket 0) of database 14712 after 120000.279 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126366083188480 on node gaussdb waiting for ExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.221 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126366083188480 on node gaussdb waiting for ExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.221 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356356597504 on node gaussdb waiting for ExclusiveLock on tuple (304,6) of (relation 19470, bucket 0) of database 14712 after 120000.163 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126370271201024 on node gaussdb waiting for ExclusiveLock on tuple (271,13) of (relation 19470, bucket 0) of database 14712 after 120000.261 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356356597504 on node gaussdb waiting for ExclusiveLock on tuple (304,6) of (relation 19470, bucket 0) of database 14712 after 120000.163 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126370271201024 on node gaussdb waiting for ExclusiveLock on tuple (271,13) of (relation 19470, bucket 0) of database 14712 after 120000.261 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360502667008 on node gaussdb waiting for ExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.120 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360502667008 on node gaussdb waiting for ExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.120 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357054949120 on node gaussdb waiting for AccessExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.441 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357054949120 on node gaussdb waiting for AccessExclusiveLock on tuple (272,1) of (relation 19473, bucket 0) of database 14712 after 120000.441 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392253548288 on node gaussdb waiting for ExclusiveLock on tuple (271,13) of (relation 19470, bucket 0) of database 14712 after 120000.239 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392253548288 on node gaussdb waiting for ExclusiveLock on tuple (271,13) of (relation 19470, bucket 0) of database 14712 after 120000.239 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126355337381632 on node gaussdb waiting for ExclusiveLock on tuple (290,8) of (relation 19470, bucket 0) of database 14712 after 120000.267 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126355337381632 on node gaussdb waiting for ExclusiveLock on tuple (290,8) of (relation 19470, bucket 0) of database 14712 after 120000.267 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126381602113280 on node gaussdb waiting for AccessExclusiveLock on tuple (270,14) of (relation 19470, bucket 0) of database 14712 after 120000.152 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126381602113280 on node gaussdb waiting for AccessExclusiveLock on tuple (270,14) of (relation 19470, bucket 0) of database 14712 after 120000.152 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357300315904 on node gaussdb waiting for ShareLock on transaction 1063400 after 120000.266 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357300315904 on node gaussdb waiting for ShareLock on transaction 1063400 after 120000.266 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389026031360 on node gaussdb waiting for ExclusiveLock on tuple (303,11) of (relation 19467, bucket 0) of database 14712 after 120000.315 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389026031360 on node gaussdb waiting for ExclusiveLock on tuple (303,11) of (relation 19467, bucket 0) of database 14712 after 120000.315 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359860938496 on node gaussdb waiting for ShareLock on transaction 1063108 after 120000.350 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359860938496 on node gaussdb waiting for ShareLock on transaction 1063108 after 120000.350 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388573046528 on node gaussdb waiting for ExclusiveLock on tuple (302,9) of (relation 19470, bucket 0) of database 14712 after 120000.196 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388573046528 on node gaussdb waiting for ExclusiveLock on tuple (302,9) of (relation 19470, bucket 0) of database 14712 after 120000.196 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359030466304 on node gaussdb waiting for ShareLock on transaction 1063312 after 120000.171 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359030466304 on node gaussdb waiting for ShareLock on transaction 1063312 after 120000.171 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356073481984 on node gaussdb waiting for AccessExclusiveLock on tuple (296,4) of (relation 19467, bucket 0) of database 14712 after 120000.192 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356073481984 on node gaussdb waiting for AccessExclusiveLock on tuple (296,4) of (relation 19467, bucket 0) of database 14712 after 120000.192 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357319190272 on node gaussdb waiting for ShareLock on transaction 1064319 after 120000.233 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357319190272 on node gaussdb waiting for ShareLock on transaction 1064319 after 120000.233 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360389420800 on node gaussdb waiting for ShareLock on transaction 1064350 after 120000.112 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360389420800 on node gaussdb waiting for ShareLock on transaction 1064350 after 120000.112 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356205602560 on node gaussdb waiting for AccessExclusiveLock on tuple (274,9) of (relation 19503, bucket 0) of database 14712 after 120000.135 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356205602560 on node gaussdb waiting for AccessExclusiveLock on tuple (274,9) of (relation 19503, bucket 0) of database 14712 after 120000.135 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126379819534080 on node gaussdb waiting for ExclusiveLock on tuple (274,9) of (relation 19503, bucket 0) of database 14712 after 120000.079 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126379819534080 on node gaussdb waiting for ExclusiveLock on tuple (274,9) of (relation 19503, bucket 0) of database 14712 after 120000.079 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358193702656 on node gaussdb waiting for ExclusiveLock on tuple (279,11) of (relation 19503, bucket 0) of database 14712 after 120000.186 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358193702656 on node gaussdb waiting for ExclusiveLock on tuple (279,11) of (relation 19503, bucket 0) of database 14712 after 120000.186 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389973944064 on node gaussdb waiting for ExclusiveLock on tuple (277,1) of (relation 19503, bucket 0) of database 14712 after 120000.138 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389973944064 on node gaussdb waiting for ExclusiveLock on tuple (277,1) of (relation 19503, bucket 0) of database 14712 after 120000.138 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387293783808 on node gaussdb waiting for ShareLock on transaction 1064609 after 120000.155 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358954968832 on node gaussdb waiting for ExclusiveLock on tuple (282,7) of (relation 19506, bucket 0) of database 14712 after 120000.150 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358954968832 on node gaussdb waiting for ExclusiveLock on tuple (282,7) of (relation 19506, bucket 0) of database 14712 after 120000.150 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387293783808 on node gaussdb waiting for ShareLock on transaction 1064609 after 120000.155 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357356939008 on node gaussdb waiting for ShareLock on transaction 1064487 after 120000.161 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357356939008 on node gaussdb waiting for ShareLock on transaction 1064487 after 120000.161 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388459800320 on node gaussdb waiting for ExclusiveLock on tuple (279,11) of (relation 19503, bucket 0) of database 14712 after 120000.154 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388459800320 on node gaussdb waiting for ExclusiveLock on tuple (279,11) of (relation 19503, bucket 0) of database 14712 after 120000.154 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388073924352 on node gaussdb waiting for ExclusiveLock on tuple (274,9) of (relation 19503, bucket 0) of database 14712 after 120000.222 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372450141952 on node gaussdb waiting for AccessExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.140 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388073924352 on node gaussdb waiting for ExclusiveLock on tuple (274,9) of (relation 19503, bucket 0) of database 14712 after 120000.222 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372450141952 on node gaussdb waiting for AccessExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.140 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360483792640 on node gaussdb waiting for ExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.336 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371802121984 on node gaussdb waiting for ExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.106 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360483792640 on node gaussdb waiting for ExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.336 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126373005887232 on node gaussdb waiting for ShareLock on transaction 1064615 after 120000.273 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371802121984 on node gaussdb waiting for ExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.106 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388988282624 on node gaussdb waiting for ExclusiveLock on tuple (273,6) of (relation 19506, bucket 0) of database 14712 after 120000.254 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126373005887232 on node gaussdb waiting for ShareLock on transaction 1064615 after 120000.273 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388988282624 on node gaussdb waiting for ExclusiveLock on tuple (273,6) of (relation 19506, bucket 0) of database 14712 after 120000.254 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357696677632 on node gaussdb waiting for ExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.139 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388554172160 on node gaussdb waiting for ExclusiveLock on tuple (274,9) of (relation 19503, bucket 0) of database 14712 after 120000.167 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357696677632 on node gaussdb waiting for ExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.139 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388554172160 on node gaussdb waiting for ExclusiveLock on tuple (274,9) of (relation 19503, bucket 0) of database 14712 after 120000.167 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358042707712 on node gaussdb waiting for ExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.115 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358042707712 on node gaussdb waiting for ExclusiveLock on tuple (280,1) of (relation 19507, bucket 0) of database 14712 after 120000.115 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126383596504832 on node gaussdb waiting for ShareLock on transaction 1064740 after 120000.172 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126383596504832 on node gaussdb waiting for ShareLock on transaction 1064740 after 120000.172 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360597038848 on node gaussdb waiting for ExclusiveLock on tuple (291,19) of (relation 19507, bucket 0) of database 14712 after 120000.090 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360597038848 on node gaussdb waiting for ExclusiveLock on tuple (291,19) of (relation 19507, bucket 0) of database 14712 after 120000.090 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126372737451776 on node gaussdb waiting for ShareLock on transaction 1064530 after 120000.214 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126372737451776 on node gaussdb waiting for ShareLock on transaction 1064530 after 120000.214 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371068118784 on node gaussdb waiting for ExclusiveLock on tuple (273,6) of (relation 19506, bucket 0) of database 14712 after 120000.239 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371068118784 on node gaussdb waiting for ExclusiveLock on tuple (273,6) of (relation 19506, bucket 0) of database 14712 after 120000.239 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358577481472 on node gaussdb waiting for ShareLock on transaction 1064857 after 120000.249 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358577481472 on node gaussdb waiting for ShareLock on transaction 1064857 after 120000.249 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360181802752 on node gaussdb waiting for ShareLock on transaction 1064921 after 120000.187 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360181802752 on node gaussdb waiting for ShareLock on transaction 1064921 after 120000.187 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360766908160 on node gaussdb waiting for ExclusiveLock on tuple (273,6) of (relation 19506, bucket 0) of database 14712 after 120000.196 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360766908160 on node gaussdb waiting for ExclusiveLock on tuple (273,6) of (relation 19506, bucket 0) of database 14712 after 120000.196 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360332797696 on node gaussdb waiting for ShareLock on transaction 1064906 after 120000.362 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360332797696 on node gaussdb waiting for ShareLock on transaction 1064906 after 120000.362 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126391951558400 on node gaussdb waiting for AccessExclusiveLock on tuple (282,23) of (relation 19507, bucket 0) of database 14712 after 120000.267 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126391951558400 on node gaussdb waiting for AccessExclusiveLock on tuple (282,23) of (relation 19507, bucket 0) of database 14712 after 120000.267 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            22036
+        write:                           4867
+        other:                           3736
+        total:                           30639
+    transactions:                        1234   (11.87 per sec.)
+    queries:                             30639  (294.68 per sec.)
+    ignored errors:                      340    (3.27 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          103.9725s
+    total number of events:              1234
+
+Latency (ms):
+         min:                                    2.49
+         avg:                                38893.82
+         max:                               103953.05
+         95th percentile:                   100000.00
+         sum:                             47994971.83
+
+Threads fairness:
+    events (avg/stddev):           2.0567/1.16
+    execution time (avg/stddev):   79.9916/24.00
+
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356979451648 on node gaussdb waiting for ShareLock on transaction 1067362 after 120000.155 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356979451648 on node gaussdb waiting for ShareLock on transaction 1067362 after 120000.155 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388969408256 on node gaussdb waiting for ExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.147 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388969408256 on node gaussdb waiting for ExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.147 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371896493824 on node gaussdb waiting for ShareLock on transaction 1067491 after 120000.270 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371896493824 on node gaussdb waiting for ShareLock on transaction 1067491 after 120000.270 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388761790208 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.199 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388761790208 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.199 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392045930240 on node gaussdb waiting for ExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.135 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392045930240 on node gaussdb waiting for ExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.135 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371049244416 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.124 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371049244416 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.124 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371858745088 on node gaussdb waiting for ExclusiveLock on tuple (290,5) of (relation 19583, bucket 0) of database 14712 after 120000.230 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371858745088 on node gaussdb waiting for ExclusiveLock on tuple (290,5) of (relation 19583, bucket 0) of database 14712 after 120000.230 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126366102062848 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.221 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126366102062848 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.221 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360672536320 on node gaussdb waiting for ShareLock on transaction 1067776 after 120000.103 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360672536320 on node gaussdb waiting for ShareLock on transaction 1067776 after 120000.103 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371011495680 on node gaussdb waiting for ShareLock on transaction 1067467 after 120000.199 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371011495680 on node gaussdb waiting for ShareLock on transaction 1067467 after 120000.199 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359615571712 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.152 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359615571712 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.152 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126370233452288 on node gaussdb waiting for ExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.191 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356111230720 on node gaussdb waiting for ShareLock on transaction 1067706 after 120000.105 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126370233452288 on node gaussdb waiting for ExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.191 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356111230720 on node gaussdb waiting for ShareLock on transaction 1067706 after 120000.105 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392253548288 on node gaussdb waiting for ExclusiveLock on tuple (290,5) of (relation 19583, bucket 0) of database 14712 after 120000.105 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392253548288 on node gaussdb waiting for ExclusiveLock on tuple (290,5) of (relation 19583, bucket 0) of database 14712 after 120000.105 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358936094464 on node gaussdb waiting for ExclusiveLock on tuple (135,27) of (relation 19587, bucket 0) of database 14712 after 120000.075 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358936094464 on node gaussdb waiting for ExclusiveLock on tuple (135,27) of (relation 19587, bucket 0) of database 14712 after 120000.075 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385783834368 on node gaussdb waiting for ExclusiveLock on tuple (278,5) of (relation 19583, bucket 0) of database 14712 after 120000.269 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385783834368 on node gaussdb waiting for ExclusiveLock on tuple (278,5) of (relation 19583, bucket 0) of database 14712 after 120000.269 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385196631808 on node gaussdb waiting for ExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.244 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385196631808 on node gaussdb waiting for ExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.244 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360295048960 on node gaussdb waiting for ExclusiveLock on tuple (135,27) of (relation 19587, bucket 0) of database 14712 after 120000.276 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360295048960 on node gaussdb waiting for ExclusiveLock on tuple (135,27) of (relation 19587, bucket 0) of database 14712 after 120000.276 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126377885959936 on node gaussdb waiting for ShareLock on transaction 1067801 after 120000.154 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126377885959936 on node gaussdb waiting for ShareLock on transaction 1067801 after 120000.154 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388818413312 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.158 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388818413312 on node gaussdb waiting for AccessExclusiveLock on tuple (273,4) of (relation 19583, bucket 0) of database 14712 after 120000.158 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359917561600 on node gaussdb waiting for ShareLock on transaction 1067545 after 120000.301 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359917561600 on node gaussdb waiting for ShareLock on transaction 1067545 after 120000.301 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357489059584 on node gaussdb waiting for ShareLock on transaction 1067566 after 120000.216 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357489059584 on node gaussdb waiting for ShareLock on transaction 1067566 after 120000.216 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126387386058496 on node gaussdb waiting for ShareLock on transaction 1067362 after 120000.276 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126387386058496 on node gaussdb waiting for ShareLock on transaction 1067362 after 120000.276 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389822949120 on node gaussdb waiting for ShareLock on transaction 1067901 after 120000.191 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389822949120 on node gaussdb waiting for ShareLock on transaction 1067901 after 120000.191 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360351672064 on node gaussdb waiting for ShareLock on transaction 1067607 after 120000.237 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360351672064 on node gaussdb waiting for ShareLock on transaction 1067607 after 120000.237 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126385802708736 on node gaussdb waiting for ShareLock on transaction 1068811 after 120000.251 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126385802708736 on node gaussdb waiting for ShareLock on transaction 1068811 after 120000.251 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388554172160 on node gaussdb waiting for ExclusiveLock on tuple (136,16) of (relation 19623, bucket 0) of database 14712 after 120000.186 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388554172160 on node gaussdb waiting for ExclusiveLock on tuple (136,16) of (relation 19623, bucket 0) of database 14712 after 120000.186 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360823531264 on node gaussdb waiting for ExclusiveLock on tuple (135,13) of (relation 19619, bucket 0) of database 14712 after 120000.187 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360823531264 on node gaussdb waiting for ExclusiveLock on tuple (135,13) of (relation 19619, bucket 0) of database 14712 after 120000.187 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371820996352 on node gaussdb waiting for ShareLock on transaction 1069149 after 120000.204 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371820996352 on node gaussdb waiting for ShareLock on transaction 1069149 after 120000.204 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388516423424 on node gaussdb waiting for ExclusiveLock on tuple (283,9) of (relation 19623, bucket 0) of database 14712 after 120000.167 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388516423424 on node gaussdb waiting for ExclusiveLock on tuple (283,9) of (relation 19623, bucket 0) of database 14712 after 120000.167 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388893910784 on node gaussdb waiting for ShareLock on transaction 1069216 after 120000.250 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388893910784 on node gaussdb waiting for ShareLock on transaction 1069216 after 120000.250 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389363672832 on node gaussdb waiting for ShareLock on transaction 1069193 after 120000.208 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389363672832 on node gaussdb waiting for ShareLock on transaction 1069193 after 120000.208 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359143712512 on node gaussdb waiting for ExclusiveLock on tuple (136,18) of (relation 19623, bucket 0) of database 14712 after 120000.405 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359143712512 on node gaussdb waiting for ExclusiveLock on tuple (136,18) of (relation 19623, bucket 0) of database 14712 after 120000.405 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358407612160 on node gaussdb waiting for ExclusiveLock on tuple (135,13) of (relation 19619, bucket 0) of database 14712 after 120000.216 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358407612160 on node gaussdb waiting for ExclusiveLock on tuple (135,13) of (relation 19619, bucket 0) of database 14712 after 120000.216 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358690727680 on node gaussdb waiting for ShareLock on transaction 1068908 after 120000.207 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359068215040 on node gaussdb waiting for AccessExclusiveLock on tuple (136,18) of (relation 19623, bucket 0) of database 14712 after 120000.200 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358690727680 on node gaussdb waiting for ShareLock on transaction 1068908 after 120000.207 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359068215040 on node gaussdb waiting for AccessExclusiveLock on tuple (136,18) of (relation 19623, bucket 0) of database 14712 after 120000.200 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359502325504 on node gaussdb waiting for ExclusiveLock on tuple (136,18) of (relation 19623, bucket 0) of database 14712 after 120000.079 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359502325504 on node gaussdb waiting for ExclusiveLock on tuple (136,18) of (relation 19623, bucket 0) of database 14712 after 120000.079 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126392083678976 on node gaussdb waiting for ExclusiveLock on tuple (135,13) of (relation 19619, bucket 0) of database 14712 after 120000.582 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126392083678976 on node gaussdb waiting for ExclusiveLock on tuple (135,13) of (relation 19619, bucket 0) of database 14712 after 120000.582 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126357054949120 on node gaussdb waiting for ExclusiveLock on tuple (136,18) of (relation 19623, bucket 0) of database 14712 after 120001.414 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126357054949120 on node gaussdb waiting for ExclusiveLock on tuple (136,18) of (relation 19623, bucket 0) of database 14712 after 120001.414 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126358954968832 on node gaussdb waiting for ShareLock on transaction 1069533 after 120000.370 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126358954968832 on node gaussdb waiting for ShareLock on transaction 1069533 after 120000.370 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126384533931776 on node gaussdb waiting for ExclusiveLock on tuple (315,3) of (relation 19622, bucket 0) of database 14712 after 120000.271 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126384533931776 on node gaussdb waiting for ExclusiveLock on tuple (315,3) of (relation 19622, bucket 0) of database 14712 after 120000.271 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389671954176 on node gaussdb waiting for ShareLock on transaction 1069498 after 120000.303 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389671954176 on node gaussdb waiting for ShareLock on transaction 1069498 after 120000.303 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126370973746944 on node gaussdb waiting for ShareLock on transaction 1069014 after 120000.153 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389288175360 on node gaussdb waiting for ShareLock on transaction 1068784 after 120000.179 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126370973746944 on node gaussdb waiting for ShareLock on transaction 1069014 after 120000.153 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389288175360 on node gaussdb waiting for ShareLock on transaction 1068784 after 120000.179 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126356771833600 on node gaussdb waiting for ShareLock on transaction 1069528 after 120000.281 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126356771833600 on node gaussdb waiting for ShareLock on transaction 1069528 after 120000.281 ms
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 600
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126360332797696 on node gaussdb waiting for ShareLock on transaction 1070305 after 120000.165 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126360332797696 on node gaussdb waiting for ShareLock on transaction 1070305 after 120000.165 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126389483210496 on node gaussdb waiting for ExclusiveLock on tuple (284,5) of (relation 19658, bucket 0) of database 14712 after 120000.171 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126389483210496 on node gaussdb waiting for ExclusiveLock on tuple (284,5) of (relation 19658, bucket 0) of database 14712 after 120000.171 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126388893910784 on node gaussdb waiting for ExclusiveLock on tuple (284,5) of (relation 19658, bucket 0) of database 14712 after 120000.187 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126388893910784 on node gaussdb waiting for ExclusiveLock on tuple (284,5) of (relation 19658, bucket 0) of database 14712 after 120000.187 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126359936435968 on node gaussdb waiting for AccessExclusiveLock on tuple (284,5) of (relation 19658, bucket 0) of database 14712 after 120000.377 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:487: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126359936435968 on node gaussdb waiting for AccessExclusiveLock on tuple (284,5) of (relation 19658, bucket 0) of database 14712 after 120000.377 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126371896493824 on node gaussdb waiting for ExclusiveLock on tuple (284,5) of (relation 19658, bucket 0) of database 14712 after 120000.444 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:469: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126371896493824 on node gaussdb waiting for ExclusiveLock on tuple (284,5) of (relation 19658, bucket 0) of database 14712 after 120000.444 ms
+FATAL: PQexecPrepared() failed: 7 Lock wait timeout: thread 126396529641216 on node gaussdb waiting for ShareLock on transaction 1070935 after 120000.293 ms
+FATAL: `thread_run' function failed: /usr/share/sysbench/oltp_common.lua:458: SQL error, errno = 0, state = 'YY003': Lock wait timeout: thread 126396529641216 on node gaussdb waiting for ShareLock on transaction 1070935 after 120000.293 ms
