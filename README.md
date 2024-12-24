@@ -3,12 +3,12 @@
 
 ## Total Conclusion
 
-- OpenGauss is query-wise slow on my computer with default configeration compared to postgresSQL:latest ([Click here](##"Basic Experiments") to get the detail)
-- OpenGauss has a potential to have a huge advantage on QPS under the situation of pretty high
-  concurrency
-- OpenGuass can relatively keep a low value of QPS/TPS under situation of high concurrency compared
-  to postgres:latest
-- OpenGauss has a potential to keep error rate relatively low compared to postgres:latest under situtaion of high concurrency.
+- **OpenGauss is query-wise slow on my computer with default configeration compared to postgresSQL:latest (Click [here](#basic-experiments) to get the detail)**
+- **OpenGauss has a potential to have a huge advantage on QPS under the situation of pretty high**
+  **concurrency(Click [here](#result(additional-test-on-sysbench)) and [here](#basic-experiment-on-sysbench) to get the detail)**
+- **OpenGuass can relatively keep a low value of QPS/TPS under situation of high concurrency compared**
+  **to postgres:latest(Click [here](#result(additional-test-on-sysbench)) and [here](#result(pressure-test)) to get the detail)**
+- **OpenGauss has a potential to keep error rate relatively low compared to postgres:latest under situtaion of high concurrency.(Click [here](#result(pressure-test)) to get the detail)**
 
 ## DATASET and Testbench
 
