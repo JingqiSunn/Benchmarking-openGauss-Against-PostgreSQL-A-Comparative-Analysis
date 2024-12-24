@@ -126,11 +126,11 @@ The first two tests used default parameter in config file, and the next three I 
 
 I made five tests here in total
 
-- [Test on sysbench on the default setting of database, mono-user](./src/Mono_User_bench.sql)
-- [Test on sysbench on the default setting of database, 50-user](./src/50_User_bench.sql)
-- [Test on sysbench on the unified loose setting of database, mono-user](./src/Mono_User_bench_unified.sql)
-- [Test on sysbench on the unified loose setting of database, 50-user](./src/50_User_bench_unified.sql)
-- [Test on sysbench on the unified loose setting of database, 100-user](./src/100_User_bench_unified.sql)
+- [Test on sysbench on the default setting of database, mono-user](./src/Mono_User_bench.sh)
+- [Test on sysbench on the default setting of database, 50-user](./src/50_User_bench.sh)
+- [Test on sysbench on the unified loose setting of database, mono-user](./src/Mono_User_bench_unified.sh)
+- [Test on sysbench on the unified loose setting of database, 50-user](./src/50_User_bench_unified.sh)
+- [Test on sysbench on the unified loose setting of database, 100-user](./src/100_User_bench_unified.sh)
 
 ### Result
 
