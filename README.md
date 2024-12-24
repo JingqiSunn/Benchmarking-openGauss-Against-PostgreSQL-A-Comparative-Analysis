@@ -50,11 +50,23 @@ We did experiments on
 
 - DATABASE CREATE/DROP
 
-  [DATABASE CREATE](./src/import.sql)
+  ```postgresql
+  CREATE DATABASE dbms;
+  ```
+
+  DATABASE DROP 
+
+  ```postgresql
+  DROP DATABASE dbms;
+  ```
 
 - DATA INSERT
 
+  [DATA INSERT](./src/import.sql)
+
 - RETRIEVAL UPDATE/SELECT
+
+  [RETRIEVAL UPDATE](./src/actual_retrieval_update.sql)
 
 - BI-CONDITIONAL SELECT
 
