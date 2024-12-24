@@ -50,7 +50,7 @@ We did experiments on
 
 - DATABASE CREATE/DROP
 
-  [DATABASE CREATE](./blob/main/src/import.sql)
+  [DATABASE CREATE](./src/import.sql)
 
 - DATA INSERT
 
