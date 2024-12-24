@@ -6,6 +6,16 @@ DATABSET :https://www.kaggle.com/datasets/wyattowalsh/basketball/data
 
 TestBench :sysbench
 
+## Timer Standard
+
+In the part of Basic Experiments, I used 
+
+```postgresql
+\timing
+```
+
+In the sysBench part, I just use the data offered by the testbench.
+
 ## DATABASE(implemented by docker)
 
 ### Pull Images
@@ -68,7 +78,25 @@ We did experiments on
 
   [RETRIEVAL UPDATE](./src/actual_retrieval_update.sql)
 
+  RETRIEVAL SELECT
+
+  ```postgresql
+  SELECT * FROM play_by_play WHERE player1_name = 'Kevin Love';
+  ```
+
 - BI-CONDITIONAL SELECT
 
+  BI-CONDITIONAL SELECT
+
+  ```postgresql
+  SELECT * FROM play_by_play WHERE player1_name = 'Kevin Love' AND game_id = '0021600215'
+  ```
+
 - Large-scale Insert From other Table
+
+  [Large-scale Insert](./src/actual_large_scale_insert.sql)
+
+### Result
+
+<img src="./photo/Basic Expreiments.png" alt="Basic Expreiments" style="zoom:33%;" />
 
